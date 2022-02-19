@@ -1,0 +1,45 @@
+.momDiv {
+  padding: 15%;
+}
+
+#sssSayfaHeader{
+  color: #4abeca;
+  font-size:40px;
+
+}
+
+#sssHeader {
+  color: #4abeca;
+  font-size:35px;
+
+}
+
+.sorular {
+  color: #152039;
+  font-size:20px;
+}
+
+.cevaplar {
+  color: #152039;
+  font-size:20px;
+  text-align: justify;
+
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  justify-content: center;
+}
+.faq {
+  max-width: 400px;
+}
+
+.sorular:hover {
+  color: #ff6341;
+}
+
+.bolum{
+  padding-top:5%;
+}

@@ -1,0 +1,61 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url("http://fonts.cdnfonts.com/css/montserrat");
+
+/* font-family: "Sofia Pro", sans-serif;*/
+/*font-family: "Montserrat", sans-serif;*/
+.containerAyar {
+  display: auto;
+  background-position: right 0% bottom 60%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+#container1 {
+  padding-top: 5px;
+  background: url("Mesh_8.png");
+  /* background: linear-gradient(130deg, #f32473c9, #f55a00d0); */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+#contain {
+  margin-top: 20px;
+  padding-bottom: 100px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.box {
+  padding-top: 30px;
+  width: 100%;
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  height: 600px;
+}
+.list {
+  font-size: 20px;
+  font-weight: bold;
+}
+.chakraTabs {
+  background: transparent;
+}
+
+.profile {
+  font-size: 20px;
+}
+
+.Labels {
+  font-size: 21px;
+  color: rgb(240, 70, 18);
+  margin-top: 20px;
+}
+.ButtonToast {
+  margin-left: 80%;
+}
+.bilP {
+  font-size: 20px;
+}

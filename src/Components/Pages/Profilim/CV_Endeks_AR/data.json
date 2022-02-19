@@ -1,0 +1,32 @@
+[
+    {
+      "company": "Sirket A",
+      "company_code": "in",
+      "url": "google.co.in",
+      "position": [
+        {
+          "name": "Stajyer",
+          "code": "stj"
+        },
+        {
+          "name": "Uzun Dönem Stajyer",
+          "code": "lgstj"
+        }
+      ]
+    },
+    {
+      "company": "Sirket B",
+      "company_code": "ae",
+      "url": "google.ae",
+      "position": [
+        {
+          "name": "Developer",
+          "code": "ar"
+        },
+        {
+          "name": "Project Manager",
+          "code": "PrjMng"
+        }
+      ]
+    }
+  ]

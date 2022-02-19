@@ -1,0 +1,72 @@
+#siparisHeader {
+    text-align: center;
+    align-content: center;
+    color: #4abeca;
+    font-size: 40px;
+    padding-bottom: 5%;
+  }
+  .endeksTabloHeader,.cvTabloHeader{
+    margin-top: 35%;
+    color: #4abeca;
+    font-size: 30px;
+    padding-left: 6%;
+  }
+  
+  .float-parent-element {
+    width: auto;
+    padding-top: 20%;
+    margin-left: 5%;
+  }
+  .float-child-element {
+    float: left;
+    width: 50%;
+    text-align: justify;
+    height: 400px;
+  }
+  .content1 {
+    font-size: medium;
+    padding-left:5%;
+    padding-top:4%;
+  }
+  
+  .content2 {
+      font-size: medium;
+      padding-right:5%;
+      padding-top:15%;
+    }
+  
+  .sonucContent {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .sonucContent2 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .fullContent {
+    background-color: #f1f2f2;
+    border-radius: 20%;
+    color: #152039;
+    margin-left: 10%;
+  }
+  
+  .sonucAnimation {
+    margin-left: 5%;
+  }
+  
+  .sonucAnimation2 {
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+  
+  .endeksTablo,
+  .cvTablo {
+    margin-top: 7%;
+    text-align: center;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  

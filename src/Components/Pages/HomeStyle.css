@@ -1,0 +1,160 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url("http://fonts.cdnfonts.com/css/montserrat");
+
+.containerHome {
+  display: auto;
+  background: url("arkaplan.svg");
+  background-position: right 0% bottom 60%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  padding-bottom: 65%;
+  height: 400px;
+  background-color: rgba(251, 248, 255, 0.815);
+}
+/* #arka {
+  margin-left: 5%;
+  margin-top: 20%;
+  font-size: 70px;
+  /* font-family: "Sofia Pro", sans-serif;*/
+/*font-family: "Montserrat", sans-serif;
+} */
+
+/* .main-title {
+  font-size: 56px;
+  line-height: 58px;
+  font-weight: 600;
+  margin: 0;
+}
+*/
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+/* HERO */
+
+#hero {
+  box-shadow: 0 3px 3px lightgray;
+  margin-bottom: 10px;
+}
+
+.hero-img {
+  width: 44%;
+  position: relative;
+  top: 250px;
+  right: -1000px;
+}
+
+#hero-text {
+  position: relative;
+  top: -480px;
+  left: 50px;
+  font-size: 90px;
+  font-weight: 900;
+  padding-left: 50px;
+  font-family: "Sofia Pro", sans-serif;
+  color: rgb(10, 13, 61);
+}
+.main-desc {
+  position: relative;
+  width: 520px;
+  padding-left: 110px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  color: #6c5b94;
+  font-size: 30px;
+  top: -490px;
+  font-family: "Sofia Pro", sans-serif;
+}
+/*Buton section*/
+.getstarted-section {
+  position: relative;
+  padding-left: 110px;
+  top: -470px;
+  font-family: "Sofia Pro", sans-serif;
+}
+.btn-getstarted {
+  background-color: #6a7cff;
+  color: #fff;
+  padding: 16px 30px;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 12px;
+}
+.getstarted-section:hover .btn-getstarted {
+  background-color: #4258f5;
+}
+
+/* 
+================
+FEATURE SECTION 
+================
+*/
+#features {
+  background: rgba(255, 255, 255, 0);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* margin-bottom: 35px; */
+  padding: 5px 0 20px 0;
+}
+.feature-box {
+  background: #fff;
+  flex-basis: 25%;
+  margin-right: 20px;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px lightgray;
+}
+
+.feature-box h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.feature-icon {
+  font-size: 50px;
+  margin-top: 8px;
+  display: block;
+  text-align: center;
+}
+
+.feature-icon i {
+  color: #4285f4;
+}
+
+#description {
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+#footer {
+  background: #152039;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+/* 
+MEDIA QUERY
+ */
+
+@media (max-width: 800px) {
+  .hero-img {
+    width: 33%;
+    position: relative;
+    top: 80px;
+    right: -500px;
+  }
+
+  #form,
+  #hero-text {
+    position: relative;
+    top: -100px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 30px;
+  }
+}

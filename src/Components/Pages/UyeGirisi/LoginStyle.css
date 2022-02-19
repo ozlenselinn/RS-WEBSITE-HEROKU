@@ -1,0 +1,170 @@
+/*Tasarım ekibinin  verdiği fontlar : 
+  * font-family: 'Montserrat', sans-serif;
+  * font-family: "Sofia Pro", sans-serif;
+  */
+
+.App {
+  height: 100vh;
+  display: auto;
+  background: #3499eb;
+  /*background: linear-gradient(150deg, #f0821b, #2cbfe4);*/
+}
+
+.appForm {
+  width: 50%;
+  height: 90vh;
+  background-color: #152039;
+  padding: 25px 40px;
+  overflow: auto;
+}
+.lottie {
+  position: absolute;
+  left: 60.06%;
+  right: 29.05%;
+  top: 34.5%;
+  bottom: 50.7%;
+}
+
+.pageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.pageSwitcherItem {
+  background-color: #40434e;
+  color: #87a2c5;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 1.5em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.pageSwitcherItem-active {
+  background-color: #ff6341;
+  color: #f1f2f2;
+}
+
+.pageSwitcherItem:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.pageSwitcherItem:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.formCenter {
+  margin-bottom: 100px;
+}
+
+.formTitle {
+  color: #87a2c5;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.formTitleLink {
+  color: #87a2c5;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.formTitleLink:first-child {
+  margin-left: 0;
+}
+
+.formTitleLink-active {
+  color: #f1f2f2;
+  border-bottom: 1px solid #ff6341;
+}
+
+.formField {
+  margin-bottom: 40px;
+}
+
+.formFieldLabel {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  color: #f1f2f2;
+}
+.formFieldInput {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: #f1f2f2;
+  outline: none;
+  border-bottom: 1px solid #87a2c5;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.formFieldInput::placeholder {
+  color: #87a2c5;
+}
+
+.formFieldButton {
+  background-color: #ff6341;
+  color: #f1f2f2;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 15px 70px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.formFieldButton:hover {
+  color: #f1f2f2;
+  cursor: pointer;
+  text-align: center;
+  background-size: 300% 100%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(to right, #f5ce62 #fa7199, #e85a19);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.formFieldButton:hover:focus {
+  outline: none;
+}
+
+.formFieldLink {
+  color: #87a2c5;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #ff6341;
+  padding-bottom: 5px;
+  font-size: 1em;
+}
+
+.formFieldCheckboxLabel {
+  color: #87a2c5;
+  font-size: 0.9em;
+}
+
+.formFieldCheckbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.formFieldTermsLink {
+  color: #f1f2f2;
+  border-bottom: 1px solid #ff6341;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+.socialMediaButtons {
+  padding: 10px 100px 10px 0px;
+}

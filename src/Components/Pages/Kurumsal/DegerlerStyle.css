@@ -1,0 +1,104 @@
+*{
+  font-family: "Sofia Pro", sans-serif;
+}
+
+#degerHeader,
+#motivasyonHeader {
+  text-align: center;
+  align-content: center;
+  color: #4abeca;
+  font-size: 40px;
+  font-family: "Sofia Pro", sans-serif;
+
+}
+/* 
+.float-parent-element {
+  width: auto;
+}
+.float-child-element {
+  
+  width: 50%;
+
+} */
+/* .content {
+  margin-left: 5%;
+  margin-right: 5%;
+} */
+
+.content2 {
+  margin-right: 5%;
+  font-size: 20px;
+  font-family: "Sofia Pro", sans-serif;
+
+}
+
+/* .imageMotivasyon {
+  margin-left: 20%;
+}
+
+.imageDeger {
+  margin-left: 10%;
+  margin-top:12%;
+}
+
+#deger, #motivasyon{
+  border-radius: 20%;
+} */
+
+.degerAnimation{
+  padding-top:5%;
+}
+
+#motivContent,
+#degerContent {
+  background-color: #152039;
+  border-radius: 20%;
+  padding: 10%;
+  color: #f1f2f2;
+  font-size:20px;
+  font-family: "Sofia Pro", sans-serif;
+
+}
+
+.odinMainContainer
+{
+  width:98%;
+  height:100vh;
+  padding:1%;
+  margin:0;
+  flex-wrap:wrap;
+}
+
+.odinLeftSidebarContainer
+{
+  width:98%;
+  min-width:98%;
+  max-width:98%;
+  height:46.25%;
+  min-height:46.25%;
+  padding:1%;
+  margin:0;
+  
+}
+
+.odinMainContentContainer
+{
+  width:98%;
+  min-width:98%;
+  max-width:98%;
+  height:46.25%;
+  min-height:46.25%;
+  padding:1%;
+  margin-top:20%;
+}
+
+.madde{
+  margin-left: 5%;
+  padding-bottom:2px;
+}
+.resOlarak{
+  font-size:20px;
+}
+.tik{
+  color:#4abeca;
+}

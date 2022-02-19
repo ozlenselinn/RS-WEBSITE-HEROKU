@@ -1,0 +1,35 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url("http://fonts.cdnfonts.com/css/montserrat");
+
+#footer {
+  background: #152039;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+#social {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+}
+
+#social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.fa-instagram {
+  color: #ad13b3;
+}
+
+.fa-github {
+  color: #134631;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}

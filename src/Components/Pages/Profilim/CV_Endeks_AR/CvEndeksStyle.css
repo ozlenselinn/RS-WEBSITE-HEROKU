@@ -1,0 +1,73 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url("http://fonts.cdnfonts.com/css/montserrat");
+.container_endeks {
+  background: url("green.png");
+  background-repeat: no-repeat;
+  background-position: top 55% right 0%;
+  background-size: 700px;
+  font-size: 18px;
+  display: auto;
+  padding-top: 1%;
+  height: 1000px;
+  background-color: #e2e7e9;
+  font-family: "Sofia Pro", sans-serif;
+}
+#cvendeksHeader-endeks {
+  text-align: center;
+  align-content: center;
+  color: #4abeca;
+  font-size: 45px;
+  padding-bottom: 5%;
+}
+.float-parent-element-endeks {
+  width: 40%;
+  padding-top: 15%;
+  margin-left: 15%;
+  /* color: #152039; */
+}
+.contentheader-endeks {
+  font-size: 20px;
+}
+
+label {
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.file {
+  margin-top: 30px;
+}
+
+.lottie-endeks {
+  position: absolute;
+  left: 65%;
+  right: 35%;
+  top: 30.5%;
+}
+
+#buton {
+  background-color: #ff6341;
+  color: #f1f2f2;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 10px 10px;
+  font-size: 1.2em;
+  font-weight: 500;
+  width: 120px;
+}
+
+#buton:hover {
+  color: #f1f2f2;
+  cursor: pointer;
+  text-align: center;
+  background-size: 300% 100%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(to right, #f5ce62 #fa7199, #e85a19);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+#buton:hover:focus {
+  outline: none;
+}

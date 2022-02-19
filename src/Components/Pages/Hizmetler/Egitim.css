@@ -1,0 +1,74 @@
+.egitimHeader{
+    text-align: center;
+    align-content: center;
+    color: #4abeca;
+    padding-bottom: 5%;
+    font-size:30px;
+  }
+  .float-child-element {
+    float: left;
+    width: 50%;
+    font-size:20px;
+  }
+  .egitimContent {
+    margin-left: 5%;
+    margin-right: 10%;
+    background-color:#f1f2f2 ;
+    border-radius: 20%;
+    padding: 10%;
+    color:  #152039;
+  }
+  .egitimContent:hover{
+    webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background-image: linear-gradient(to right, #f5ce62 #fa7199, #e85a19);
+    box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
+    cursor: pointer;
+    background-size: 300% 100%;
+  }
+  .madde {
+    margin-left: 10%;
+    padding-bottom:2px;
+   
+  }
+  .tik{
+      color:#4abeca;
+  }
+  @media screen and (max-width: 600px) {
+    .float-child-element{
+      width: 100%;
+    }
+  }
+  
+  .animationEgitim1{
+      text-align: justify;
+  }
+  .animationEgitim2{
+      text-align: justify;
+      margin-top:5%;
+  }
+  
+  .rows {width:98%;
+    height:100vh;
+    padding:1%;
+    margin:0;
+    flex-wrap:wrap;
+  }
+  .row1{
+    width:98%;
+    min-width:98%;
+    max-width:98%;
+    height:46.25%;
+    min-height:46.25%;
+    padding:1%;
+    margin:0;
+  }
+  .row2{
+    width:98%;
+    min-width:98%;
+    max-width:98%;
+    height:46.25%;
+    min-height:46.25%;
+    padding:1%;
+    margin-top:40%;
+  }
