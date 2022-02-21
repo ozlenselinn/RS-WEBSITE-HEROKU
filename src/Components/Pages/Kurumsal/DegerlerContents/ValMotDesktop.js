@@ -72,4 +72,5 @@ function ValMotDesktop(props) {
     </div>
   );
 }
+
 export default  ValMotDesktop;
