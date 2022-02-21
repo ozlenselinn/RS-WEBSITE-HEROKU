@@ -1,36 +1,22 @@
-#hakkimizdaHeader {
-  text-align: center;
-  align-content: center;
-  color: #4abeca;
-  font-size: 40px;
-  padding-left:5%;
+/* .aboutDesktopMomDiv{
+  padding-bottom: 10%;
 }
+
+
 
 .float-parent-element {
   width: auto;
-  padding-top: 20%;
-  padding-bottom: 65%;
   margin-left: 5%;
-}
-.float-child-element {
+} */
+/* .float-child-element {
   float: left;
   width: 50%;
   text-align: justify;
   height: 400px;
-}
-.content {
-  font-size: medium;
-}
+} */
 
-.aboutContent {
+/* .aboutContent {
   font-size: 20px;
-}
-.image {
-  margin-left: 20%;
-}
-
-img {
-  width: 80%;
 }
 
 .fullContent {
@@ -44,4 +30,40 @@ img {
 .animation {
   margin-left: 5%;
   margin-top: 5%;
+}
+.content{
+  padding-top: 10%;
+} */
+#hakkimizdaHeader {
+  text-align: center;
+  align-content: center;
+  color: #4abeca;
+  font-size: 40px;
+  padding-left:5%;
+}
+
+.float-child-element{
+  padding-top: 10%;
+}
+.content {
+  margin-right: 10%;
+  float:left;
+  text-align:left;
+}
+
+#aboutContent{
+  background-color: #152039;
+  border-radius: 20%;
+  padding: 10%;
+  color: #f1f2f2;
+  font-size:20px;
+}
+
+.momDivAboutDesktop{
+padding-top:5%;
+margin-bottom:35%;
+}
+
+.aboutAnimation{
+  padding-top:10%;
 }

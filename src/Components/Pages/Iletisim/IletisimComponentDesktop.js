@@ -1,12 +1,12 @@
-import emailjs from "emailjs-com";
-import "./Iletisim.css";
+// import emailjs from "emailjs-com";
+import "./IletisimDesktop.css";
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./contactAnm";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 
-export default function Email() {
+export default function IletisimComponentDesktop() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -15,7 +15,7 @@ export default function Email() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-  function sendEmail(e) {
+  /*function sendEmail(e) {
     e.preventDefault();
 
     emailjs
@@ -33,10 +33,11 @@ export default function Email() {
           console.log(error.text);
         }
       );
-  }
+      
+  }*/
 
   return (
-    <div className="momDiv">
+    <div className="momDivContectDesktop">
       <div className="cerceve">
         <h1 id="iletisim">İLETİŞİM</h1>
         <p id="aciklama">
@@ -46,12 +47,12 @@ export default function Email() {
           paketlerimizden haberdar olmak için aşağıya mail adresinizi
           bırakabilirsiniz.
         </p>
-        <div className="animation">
-          <Lottie options={defaultOptions} height={400} width={400} />
+        <div className="animationIletisimDesktop">
+          <Lottie options={defaultOptions} height={400} width={350} />
         </div>
 
         <Box
-          id="box"
+          id="boxDesktop"
           component="form"
           sx={{
             "& > :not(style)": { m: 1, width: "25ch" },
@@ -65,7 +66,7 @@ export default function Email() {
               fullWidth
               label="fullWidth"
               id="fullWidth"
-              id="standard-required"
+              // id="standard-required"
               label="Adınızı ve Soyadınızı giriniz."
               variant="standard"
             />
@@ -75,7 +76,7 @@ export default function Email() {
               fullWidth
               label="fullWidth"
               id="fullWidth"
-              id="standard-required"
+              // id="standard-required"
               label="Email adresinizi giriniz."
               variant="standard"
             />
