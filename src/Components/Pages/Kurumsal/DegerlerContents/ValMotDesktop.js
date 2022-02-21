@@ -1,10 +1,10 @@
 import React from "react";
-import "./DegerlerStyle.css";
+import "./ValMotDesktop.css";
 import Lottie from "react-lottie";
-import animationData1 from "./motivasyonAnimation.json";
-import animationData2 from "./degerlerAnimation.json";
+import animationData1 from "../motivasyonAnimation.json";
+import animationData2 from "../degerlerAnimation.json";
 
-function MotivContentMotiv(props) {
+function ValMotDesktop(props) {
   const defaultOptionsValue = {
     loop: true,
     autoplay: true,
@@ -72,4 +72,4 @@ function MotivContentMotiv(props) {
     </div>
   );
 }
-export default MotivContentMotiv;
+export default  ValMotDesktop;
