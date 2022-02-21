@@ -1,4 +1,4 @@
-const express = require("express");
+/*const express = require("express");
 const app = express();
 const path = require("path");
 
@@ -15,3 +15,5 @@ app.listen(port, (err) => {
   if (err) return console.log(err);
   console.log("Server running on port: ", port);
 });
+
+*/
