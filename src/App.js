@@ -26,6 +26,8 @@ import Siparislerim from './Components/Pages/Profilim/Siparislerim/Siparislerim'
 import Footer from './Components/Footer/Footer';
 import HesapAyarlari from './Components/Pages/Profilim/HesapAyarlari/HesapAyarlari';
 import CvEndeksAr from './Components/Pages/Profilim/CV_Endeks_AR/CvEndeksAr';
+import SinglePost from "./Components/Pages/Blog/SinglePost";
+import Write from './Components/Pages/Blog/Write';
 
 
 function App(Component){
@@ -43,6 +45,8 @@ function App(Component){
           <Route path="/CV_Ent" component={CV_Ent}/>
           <Route path="/Linkedin" component={Linkedin}/> 
           <Route path="/Blog" component={Blog}/>
+          <Route path="/Write" component={Write}/>
+          <Route path="/Single" component={SinglePost}/>
           <Route path="/SSS" component={SSS}/>
           <Route path="/Contact" component={Contact}/>
           <Route path="/Login" component={Login}/>
