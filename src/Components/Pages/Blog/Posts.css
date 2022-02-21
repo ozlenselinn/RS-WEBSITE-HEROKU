@@ -1,6 +1,16 @@
 .posts{
-    flex: 9;
+    flex: 19;
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
+   
+}
+.baslik {
+ text-align: center;
+ font-family: "Lora", serif;
+ color: #444;
+ font-size: 40px;
+ margin-top: 50px;
+ margin-bottom: 40px;
+
 }

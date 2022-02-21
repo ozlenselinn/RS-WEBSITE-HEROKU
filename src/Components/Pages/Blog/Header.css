@@ -1,18 +1,21 @@
+ /*.header {
 
+  text-align: center;
+  padding: 10px;
+ }
   
   .headerTitles {
-   
-  
     align-items: center;
     font-family: "Lora", serif;
     color: #444;
+    padding: 30px;
   }
   
 
   
   .headerTitleLg {
-    position: absolute;
-    top: 20%;
-    font-size: 100px;
+   
+    padding-top: 50px;
+    font-size: 40px;
   }
-  
+  */
