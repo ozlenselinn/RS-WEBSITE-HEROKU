@@ -1,102 +1,101 @@
 #ortakHeader {
-    color: #4abeca;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 5%;
-    font-size:40px;
-  }
-  
-  #ogrenciHeader,#sirketHeader {
-    color: #4abeca;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 5%;
-    padding-top: 10%;
-    font-size:35px;
-  }
-  
-  .cerceveMobile {
-    align-items: center;
-    justify-content: center;
-    border-radius: 5%;
-  }
-  
- .ortakContentMobile {
-    background-color: #152039;
-    color: #f1f2f2;
-    font-size:20px;
-    padding:30px;
-    border-radius: 10%;
-  }
-  
-  img.hover-shadow:hover {
-    /* box-shadow: #ff6341 0px 10px 0px; */
-    box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
-  }
-  img{
-    padding-bottom:5%;
-  }
-  .logoDiv {
-    text-align: center;
-    align-items: center;
-  
-  }
+  color: #4abeca;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  font-size:40px;
+}
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+#ogrenciHeader,#sirketHeader {
+  color: #4abeca;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 10%;
+  font-size:35px;
+}
+
+.cerceveMobile {
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+.ortakContentMobile {
+  background-color: #152039;
+  color: #f1f2f2;
+  font-size:20px;
+  padding:30px;
+  border-radius: 10%;
+}
+
+img.hover-shadow:hover {
+  /* box-shadow: #ff6341 0px 10px 0px; */
+  box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
+}
+img{
+  padding-bottom:5%;
+}
+.logoDiv {
+  text-align: center;
+  align-items: center;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, .columnYeditepe {
+    width: 100%;
   }
-  
-  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, .columnYeditepe {
-      width: 100%;
-    }
-  }
-  
-  .logoName{
-    color:#f1f2f2;
-    margin-top:5%;
-    margin-bottom:15%;
-    border-radius:10%;
-    background-color: #152039;
-    height: 80px;
-    width: 90%;
-    padding: 10px;
-    font-size:20px;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .logoNameYeditepe{
-    color:#f1f2f2;
-    margin-top:18%;
-    margin-bottom:15%;
-    border-radius:10%;
-    background-color: #152039;
-    height: 80px;
-    width: 90%;
-    padding: 10px;
-    font-size:20px;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .logoNameYeditepeFinans{
-    color:#f1f2f2;
-    margin-top:14%;
-    margin-bottom:15%;
-    border-radius:10%;
-    background-color: #152039;
-    height: 80px;
-    width: 90%;
-    padding: 10px;
-    font-size:20px;
-    text-align: center;
-    align-items: center;
-  
-  }
-  
+}
+
+.logoName{
+  color:#f1f2f2;
+  margin-top:5%;
+  margin-bottom:15%;
+  border-radius:10%;
+  background-color: #152039;
+  height: 80px;
+  width: 90%;
+  padding: 10px;
+  font-size:20px;
+  text-align: center;
+  align-items: center;
+}
+
+.logoNameYeditepe{
+  color:#f1f2f2;
+  margin-top:18%;
+  margin-bottom:15%;
+  border-radius:10%;
+  background-color: #152039;
+  height: 80px;
+  width: 90%;
+  padding: 10px;
+  font-size:20px;
+  text-align: center;
+  align-items: center;
+}
+
+.logoNameYeditepeFinans{
+  color:#f1f2f2;
+  margin-top:14%;
+  margin-bottom:15%;
+  border-radius:10%;
+  background-color: #152039;
+  height: 80px;
+  width: 90%;
+  padding: 10px;
+  font-size:20px;
+  text-align: center;
+  align-items: center;
+
+}
