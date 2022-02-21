@@ -1,0 +1,18 @@
+
+  
+  .headerTitles {
+   
+  
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #444;
+  }
+  
+
+  
+  .headerTitleLg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+  }
+  
