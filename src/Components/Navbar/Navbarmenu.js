@@ -93,9 +93,6 @@ const toggleClass4 = () => {
         boxClassSubMenu4.push('');
     }
   
-
-   
-
     return (
     <header className="header__middle">
         <div className="container">
@@ -148,8 +145,9 @@ const toggleClass4 = () => {
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Blog`}> Blog </NavLink> </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/SSS`}> SSS </NavLink> </li>
                    
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Login`}> Üye Girişi</NavLink> </li>
+                   
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> İletişim </NavLink> </li>
+                    <li className="menu-item" ><div id='neon' ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Login`}> Üye Girişi</NavLink></div></li>
                      
                     <li onClick={toggleSubmenu4} className="menu-item sub__menus__arrows" > <Link to="#"> Profilim <FiChevronDown /> </Link>
                             <ul className={boxClassSubMenu4.join(' ')} > 
@@ -158,6 +156,7 @@ const toggleClass4 = () => {
                             <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/Sonuclarim`}> Sonuçlarım </NavLink> </li>
                             <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/Siparislerim`}> Siparişlerim </NavLink> </li>
                             <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/HesapAyarlari`}> Hesap Ayarları </NavLink> </li>
+                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={'/'}> ÇIKIŞ </NavLink> </li>
                         </ul>
                     </li>
                   

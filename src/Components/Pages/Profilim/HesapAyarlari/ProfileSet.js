@@ -35,9 +35,8 @@ function ProfileSet(){
             pointerEvents='none'
             children={<EmailIcon color='gray.300' />}
             />
-            <Input id='email' type='email' />
-        </InputGroup>        
-        <FormHelperText>*Emailiniz kimse ile paylaşılmaz.</FormHelperText>       
+            <Input id='email' type='email' /><br/>
+        </InputGroup>            
         </FormControl>
         
         <div className="ButtonToast">
