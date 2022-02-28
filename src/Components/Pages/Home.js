@@ -1,7 +1,9 @@
 import React from 'react';
 // import arkaplan from './arkaplan.png';
-import arkaplan from './arkaplan.svg';
+// import arkaplan from './arkaplan.svg';
 import HomeStyle from './HomeStyle.css';
+import arkaplan from './home_back.jpeg';
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"></link>
 //import amblem from './amblem.png';
 //BUTON EKLENECEK, SAYFA RESPONSİVE HALE GETİRİLECEK
@@ -23,9 +25,9 @@ const Home = () => {
           </div> */}
           <div id="page-container">       
             
-            <section id="hero">
+            <section id="features">
             
-                <img className="hero-img" src="https://res.cloudinary.com/lucas2308/image/upload/v1542204505/interview_zpoxsi.svg" alt="job seeker image"/>
+                {/* <img className="hero-img" src="https://res.cloudinary.com/lucas2308/image/upload/v1542204505/interview_zpoxsi.svg" alt="job seeker image"/> */}
                 <h1 id="hero-text">GELECEĞİNİ<br/>PARLAT!</h1>
                 <p class="main-desc">ResumeShiners ekibi olarak geleceğinizi parlatıyoruz!
 İş/Staj Başvurularınız için danışmanlık, özgeçmiş hazırlama gibi hizmetlerimizle sizlerleyiz.</p>
@@ -36,7 +38,7 @@ const Home = () => {
                    
             </section>
 
-            <section id="features">
+            {/* <section id="features">
                 <div className="feature-box">
                     <h4>Yazılı ve Sözlü Geri Bildirim</h4>
                     <span className="feature-icon"><i className="fas fa-user-plus"></i></span>
@@ -54,11 +56,9 @@ const Home = () => {
                     <span className="feature-icon"><i className="fas fa-briefcase"></i></span>
                     <p id="description">12 aya varan paketlerimizle birlikte, süreç boyunca sizi yalnız bırakmıyor, sizlerle birlikte biz de gelişiyoruz.</p>
                 </div>
-            </section>           
+            </section>            */}
 
-            <footer id="footer">
-                
-            </footer>
+            {/* <footer id="footer"></footer> */}
     </div>
         </div>
                    

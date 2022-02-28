@@ -29,7 +29,7 @@ function General(){
 
   return (
     <>
-      <Button onClick={onOpen} colorScheme='red' fontSize='lg' fontWeight='bold' marginTop={'20px'}>Çıkış Yap</Button>
+      <Button onClick={onOpen} colorScheme='red' fontSize='lg' fontWeight='bold' marginTop={'20px'}>Hesabımı Sil</Button>
       <AlertDialog
         motionPreset='slideInBottom'
         leastDestructiveRef={cancelRef}
@@ -40,10 +40,10 @@ function General(){
         <AlertDialogOverlay />
 
         <AlertDialogContent>
-          <AlertDialogHeader fontSize='lg' fontWeight='bold'>Çıkış Yap?</AlertDialogHeader>
+          <AlertDialogHeader fontSize='lg' fontWeight='bold'>Hesabımı Sil?</AlertDialogHeader>
           <AlertDialogCloseButton />
           <AlertDialogBody>
-            Çıkış yapmak istediğinize emin misiniz? (Kaydetmediğiniz değişiklikler kaybolacaktır.)
+            Hesabınızı silmek istediğinizden emin misiniz?
           </AlertDialogBody>
           <AlertDialogFooter>
             <Button ref={cancelRef} onClick={onClose}>
