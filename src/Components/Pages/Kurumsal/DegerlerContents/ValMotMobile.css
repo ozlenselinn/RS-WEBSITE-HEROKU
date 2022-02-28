@@ -1,8 +1,8 @@
 .motivContentMobile{
-    margin-top:30%;
+    margin-top:10%;
 }
 .valContentMobile{
-    margin-top:20%;
+    margin-top:10%;
     margin-bottom:100%;
    
 }
@@ -12,7 +12,6 @@
     align-content: center;
     color: #4abeca;
     font-size: 40px;
-    padding-top:10px;
     padding-left:7%;
     padding-bottom:5%;
   }

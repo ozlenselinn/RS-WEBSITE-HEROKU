@@ -5,6 +5,8 @@ import Lottie from "react-lottie";
 import animationData from "./contactAnm";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function IletisimComponentDesktop() {
   const defaultOptions = {
@@ -35,6 +37,13 @@ export default function IletisimComponentDesktop() {
       );
       
   }*/
+  function Mailto({ email, subject, body, ...props }) {
+    return (
+      <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
+        {props.children}
+      </a>
+    );
+  }
 
   return (
     <div className="momDivContectDesktop">
@@ -42,10 +51,30 @@ export default function IletisimComponentDesktop() {
         <h1 id="iletisim">İLETİŞİM</h1>
         <p id="aciklama">
           Bizimle iletişime geçmek için
-          <label id="adres"> info@resumeshiners.com</label> adresine mail
-          atabilirsiniz. Bilgilendirici yazılarımızdan, fırsatlarımızdan ve
-          paketlerimizden haberdar olmak için aşağıya mail adresinizi
-          bırakabilirsiniz.
+          <Mailto email="info@resumeshiners.com">
+            <label className="resumeMail"> info@resumeshiners.com </label>
+          </Mailto>{" "}
+          adresine mail atabilirsiniz. Bilgilendirici yazılarımızdan,
+          fırsatlarımızdan ve paketlerimizden haberdar olmak için aşağıdaki
+          forma mail adresinizi bırakabilirsiniz.
+          <div className="instagramIletisimDiv">
+            <p id="aciklamaInsta">
+              Ayrıca instagram hesabımızı da ziyaret edebilirsiniz.
+              <a
+                href="https://instagram.com/resumeshiners?utm_medium=copy_link"
+                className="iletisimSocial"
+              >
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="instaBut"
+                  size="1.5x"
+                />
+              </a>
+              <br></br>
+              <br></br>
+              Adresimiz: vlkdjfgkljdfrgvfdlmvkldfkömvldfkövldkldfkgvlfkdlv??
+            </p>
+          </div>
         </p>
         <div className="animationIletisimDesktop">
           <Lottie options={defaultOptions} height={400} width={350} />

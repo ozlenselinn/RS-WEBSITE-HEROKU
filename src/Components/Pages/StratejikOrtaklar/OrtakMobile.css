@@ -32,7 +32,6 @@
 }
 
 img.hover-shadow:hover {
-  /* box-shadow: #ff6341 0px 10px 0px; */
   box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
 }
 img{
@@ -50,7 +49,6 @@ img{
   clear: both;
 }
 
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, .columnYeditepe {
     width: 100%;

@@ -1,6 +1,6 @@
 .momDivContectDesktop{
   padding-top:15%;
-  padding-bottom:10%;
+  padding-bottom:3%;
 }
 
 #iletisim {
@@ -25,11 +25,10 @@
 .cerceve {
   align-items: center;
   justify-content: center;
-
 }
 
 #boxDesktop {
-  margin-top: 10%;
+  margin-top: 5%;
   align-items: center;
   margin-left: 50%;
   display: flex;
@@ -52,6 +51,13 @@
   margin-left:5%;
   margin-right:5%;
 
+}
+
+#aciklamaInsta{
+  background-color: #f1f2f2;
+  color: #152039;
+  border-radius: 10%;
+  font-size: 20px;
 }
 
 .info,
@@ -99,11 +105,25 @@
 #buton:hover:focus {
   outline: none;
 }
-#adres {
+.resumeMail {
   color: #e85a19;
 }
+
 .animationIletisimDesktop {
   float: left;
   padding-top: 15%;
   padding-left:15%;
+}
+
+.instagramIletisimDiv{
+  padding-top:3%;
+}
+
+.instaBut{
+  padding-left:1%;
+  color:#152039;
+}
+
+.instaBut:hover {
+  color:#ff6341;
 }

@@ -27,7 +27,7 @@ function ValMotDesktop(props) {
       <div className="row">
         <div className="float-child-element">
           <div className="motivAnimation">
-            <Lottie options={defaultOptionsMotiv} height={450} width={450} />
+            <Lottie options={defaultOptionsMotiv} height={400} width={400} />
           </div>
         </div>
         <div className="float-child-element">

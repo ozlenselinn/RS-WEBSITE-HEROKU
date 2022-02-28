@@ -94,7 +94,7 @@
   #buton:hover:focus {
     outline: none;
   }
-  #adres {
+  #resumeMail {
     color: #e85a19;
   }
   .animationIletisimMobile {
@@ -103,4 +103,17 @@
     padding-top: 5%;
   
   }
+  .instagramIletisimDiv{
+    padding-top:3%;
+  }
+  
+  .instaBut{
+    padding-left:1%;
+    color:#152039;
+  }
+  
+  .instaBut:hover {
+    color:#ff6341;
+  }
+  
   

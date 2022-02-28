@@ -3,8 +3,8 @@ import MulakatPaketEnvanter from "./MulakatPaketEnvanter";
 import MulakatPaketSektorelIK from "./MulakatPaketSektorelIK";
 import MulakatPaketSektorelYD from "./MulakatPaketSektorelYD";
 import MulakatPaketAkademik from "./MulakatPaketAkademik";
-
-// import "./CV.css";
+import { Link } from "react-router-dom";
+import "./CV.css";
 
 function Mulakat(props) {
   return (
@@ -20,6 +20,11 @@ function Mulakat(props) {
       </div>
       <div className="row2">
         <MulakatPaketAkademik></MulakatPaketAkademik>
+      </div>
+      <div className="row4">
+      <div className="yonlendirmeGeri"><Link to={"./CV_Danis"}>Bir önceki hizmet</Link></div>
+      <div className="yonlendirmeIleri"><Link to={"./MotivMektup"}>Bir sonraki hizmet</Link></div>
+
       </div>
     </div>
   );
