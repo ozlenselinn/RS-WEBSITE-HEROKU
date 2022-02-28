@@ -9,7 +9,7 @@ export default function Blog() {
   return (
     <>
       <Header />
-      <div className="home">
+      <div className="blog">
         <Posts />
       
       </div>

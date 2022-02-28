@@ -3,14 +3,14 @@
 
 .containerHome {
   display: auto;
-  background: url("arkaplan.svg");
+  background: url("home_back.jpeg");
   background-position: right 0% bottom 60%;
   background-size: 100%;
   background-repeat: no-repeat;
   padding-top: 5%;
-  padding-bottom: 65%;
+  padding-bottom: 40%;
   height: 400px;
-  background-color: rgba(251, 248, 255, 0.815);
+  background-color: rgba(233, 227, 227, 0.849);
 }
 /* #arka {
   margin-left: 5%;
@@ -35,16 +35,17 @@
 /* HERO */
 
 #hero {
-  box-shadow: 0 3px 3px lightgray;
-  margin-bottom: 10px;
+  /* box-shadow: 0 3px 3px lightgray; */
+  top: -400px;
+  /* margin-bottom: 100px; */
 }
 
-.hero-img {
+/* .hero-img {
   width: 44%;
   position: relative;
   top: 250px;
   right: -1000px;
-}
+} */
 
 #hero-text {
   position: relative;
@@ -96,7 +97,7 @@ FEATURE SECTION
   display: flex;
   width: 100%;
   justify-content: space-around;
-  /* margin-bottom: 35px; */
+  margin-bottom: 35px;
   padding: 5px 0 20px 0;
 }
 .feature-box {

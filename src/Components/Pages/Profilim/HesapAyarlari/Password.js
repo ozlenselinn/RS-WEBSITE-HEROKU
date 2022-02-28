@@ -20,16 +20,6 @@ function Password(){
     const handleClick = () => setShow(!show)
     const toast = useToast()
 
-    function validateName(value) {
-        let error
-        if (!value) {
-          error = 'Name is required'
-        } else if (value !== 'yeni şifre') {
-          error = "Girdiğiniz şifre ile uyuşmamaktadır! "
-        }
-        return error
-      }
-
     return(
         <>
         <FormControl>
@@ -57,48 +47,26 @@ function Password(){
         * En az 1 rakam, 1 büyük harf ve 1 karakter</FormHelperText>
         </FormControl>
 
-        <Formik
-        initialValues={{ name: 'Şifre' }}
-        onSubmit={(values, actions) => {
-            setTimeout(() => {
-            alert(JSON.stringify(values, null, 2))
-            actions.setSubmitting(false)
-            }, 1000)
-        }}
-        >
-        {(props) => (
-            <Form>
-            <Field name='name' validate={validateName}>
-                {({ field, form }) => (
-                <FormControl isInvalid={form.errors.name && form.touched.name}>
-                    <FormLabel 
-                     className="Labels" 
-                     marginTop={'40px'} 
-                     fontSize={'21px'}
-                     htmlFor='name' >Yeni Şifre (Tekrar)</FormLabel>
-                     <InputGroup size='md' >
-                    <Input {...field} id='name' placeholder='name' />
-                    <FormErrorMessage marginLeft={'20px'} marginRight={'50px'}>{form.errors.name}</FormErrorMessage>
-                    <InputRightElement width='6rem'>
-            <Button 
-            h='1.75rem' 
-            size='sm' 
-            onClick={handleClick}
-            isLoading={props.isSubmitting}
-            type='submit'>
-            { 'Kontrol Et' }
+        
+        <FormLabel className="Labels" 
+        marginTop={'20px'} 
+        fontSize={'21px'}>Yeni Şifre (Tekrar)</FormLabel>
+        <InputGroup size='md' >
+        <Input
+            pr='4.5rem'
+            type={show ? 'text' : 'password'}
+            placeholder='Şifre Giriniz'
+        />
+        <InputRightElement width='4.5rem'>
+            <Button h='1.75rem' size='sm' onClick={handleClick}>
+            {show ? 'Sakla' : 'Göster'}
             </Button>
         </InputRightElement>
-                    </InputGroup>
-                </FormControl>
-                )}
-            </Field>
-            
-            
+        </InputGroup>
+
+      
         
-            </Form>
-        )}
-        </Formik>
+        
         <div className="ButtonToast">
         <Button 
         className="Toast"

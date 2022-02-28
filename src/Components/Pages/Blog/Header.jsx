@@ -1,16 +1,13 @@
 import "./Header.css";
 
-export default function Header() {
+export default function Headetr() {
   return (
     <div className="header">
       <div className="headerTitles">
        
-        <span className="headerTitleLg">BLOG</span>
+        <div className="headerTitleLg">.</div>
       </div>
-      <img
-        className="headerImg"
-       
-      />
+    
     </div>
   );
 }

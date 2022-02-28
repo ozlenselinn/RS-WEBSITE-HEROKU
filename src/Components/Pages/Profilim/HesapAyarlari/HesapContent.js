@@ -29,7 +29,7 @@ function HesapContent() {
                     <Tab className="list" fontSize={'20px'} ><i className="fas fa-user"></i>&nbsp; Profil Bilgileri</Tab>
                     <Tab className="list" fontSize={'20px'}><i className="fas fa-shield-alt"></i>&nbsp; Şifre</Tab>
                     <Tab className="list" fontSize={'20px'}><i class="far fa-bell"></i>&nbsp; Bildirimler</Tab>
-                    <Tab className="list" fontSize={'20px'}><i class="fas fa-file-invoice-dollar"></i>&nbsp; Fatura Bilgileri</Tab>
+                    {/* <Tab className="list" fontSize={'20px'}><i class="fas fa-file-invoice-dollar"></i>&nbsp; Fatura Bilgileri</Tab> */}
                     <Tab className="list" fontSize={'20px'}><i class="fas fa-cog"></i>&nbsp; Genel</Tab>                    
                 </TabList>
                 <TabPanels>
@@ -42,9 +42,9 @@ function HesapContent() {
                     <TabPanel className="bildirim">                      
                       <Notification></Notification>                
                     </TabPanel>
-                    <TabPanel>
+                    {/* <TabPanel>
                        <Bill></Bill>
-                    </TabPanel>
+                    </TabPanel> */}
                     <TabPanel>
                       <p>Ne koyacağımı bilemedim...</p>
                       <General></General>
