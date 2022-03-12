@@ -6,9 +6,8 @@ import interw_IK from "./Mulakat_Animation/interw_IK";
 import interw_YD from "./Mulakat_Animation/interw_YD";
 import interw_akademik from "./Mulakat_Animation/interw_akademik";
 
-
 function MulakatContent(props) {
-
+ 
   const defaultOptions1 = {
     loop: true,
     autoplay: true,
@@ -126,15 +125,6 @@ function MulakatContent(props) {
         </div>
         </div>
       </body>
-
-      {/* <div className="float-child-element">
-    
-      </div> */}
-      {/* <div className="float-child-element">
-        <div className="image">
-          <img src="/kurumsalImages/cv1.png" alt=""></img>
-        </div>
-      </div> */}
     </div>
   );
 }

@@ -23,10 +23,10 @@ function ValMotDesktop(props) {
   };
 
   return (
-    <div className="momDiv">
+    <div className="momDivDegerler">
       <div className="row">
         <div className="float-child-element">
-          <div className="motivAnimation">
+          <div className="motivAnimationD">
             <Lottie options={defaultOptionsMotiv} height={400} width={400} />
           </div>
         </div>
@@ -64,7 +64,7 @@ function ValMotDesktop(props) {
           </div>
         </div>
         <div className="float-child-element">
-          <div className="degerAnimation">
+          <div className="degerAnimationD">
             <Lottie options={defaultOptionsValue} height={450} width={450} />
           </div>
         </div>

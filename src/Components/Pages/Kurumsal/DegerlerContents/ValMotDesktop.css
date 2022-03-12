@@ -3,7 +3,7 @@
   align-content: center;
   color: #4abeca;
   font-size: 40px;
-  padding-top: 30%;
+  padding-top: 10%;
 }
 
 #motivasyonHeader {
@@ -13,24 +13,9 @@
   font-size: 40px;
 }
 
-.float-child-element{
- 
-}
-.content {
-  margin-right: 10%;
-  float:left;
-  text-align:left;
-}
-
-.content2 {
+.degerAnimationD{
   float:right;
-  font-size: 20px;
-  text-align:left;
-}
-
-.degerAnimation{
-  padding-top:30%;
-  float:right;
+  margin-right:20%;
 }
 
 #motivContent{
@@ -39,6 +24,7 @@
   padding: 10%;
   color: #f1f2f2;
   font-size:20px;
+  text-align:left;
 }
 
 #degerContent {
@@ -47,6 +33,8 @@
   padding: 10%;
   color: #f1f2f2;
   font-size:20px;
+  margin-left:5%;
+  text-align:left;
 }
 
 .madde{
@@ -60,15 +48,15 @@
   color:#4abeca;
 }
 
-.motivAnimation{
+.motivAnimationD{
   float:left;
-  padding-left:5%;
+  padding-left:15%;
   padding-top:5%;
 }
 
-.momDiv{
+.momDivDegerler{
 padding-top:5%;
-margin-bottom:15%;
+margin-bottom:10%;
 }
 
 .row{

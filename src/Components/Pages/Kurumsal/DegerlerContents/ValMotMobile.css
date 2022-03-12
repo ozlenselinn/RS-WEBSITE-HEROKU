@@ -3,8 +3,6 @@
 }
 .valContentMobile{
     margin-top:10%;
-    margin-bottom:100%;
-   
 }
 
 .motivasyonHeaderMobile, .valueHeaderMobile {
@@ -30,4 +28,7 @@
     align-items: center;
   }
 
+  .momDivMobile{
+    margin-bottom:10%;
+  }
   

@@ -1,19 +1,29 @@
-import React from 'react';
-import LinkedinContent from "./LinkedinContent";
-import { Link } from "react-router-dom";
-import "./CV.css";
+import React from "react";
+// import { Link } from "react-router-dom";
+import LinkedinDesktop from "./linkedinContent/LinkedinDesktop";
+import LinkedinMobile from "./linkedinContent/LinkedinMobile";
+import { useMediaQuery } from "react-responsive";
+import "./linkedinContent/LinkedinMobile.css";
+import "./linkedinContent/LinkedinDesktop.css";
 
 function Linkedin(props) {
-    return (
-        <div className='odinMainContainer'>
-          <div  className='odinLeftSidebarContainer'> <LinkedinContent>
-          </LinkedinContent></div>
-          <div className="row4">
-      <div className="yonlendirmeGeri"><Link to={"./MotivMektup"}>Bir önceki hizmet</Link></div>
-      <div className="yonlendirmeIleri"><Link to={"./Egitim"}>Bir sonraki hizmet</Link></div>
+  const isDesktopOrLaptop = useMediaQuery({ query: "(min-width: 1200px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
-      </div>
+  return (
+    <div>
+      {isDesktopOrLaptop && <LinkedinDesktop></LinkedinDesktop>}
+      {isTabletOrMobile && <LinkedinMobile></LinkedinMobile>}
+
+      {/* <div className="row4">
+        <div className="yonlendirmeGeri">
+          <Link to={"./MotivMektup"}>Bir önceki hizmet</Link>
         </div>
-      );
+        <div className="yonlendirmeIleri">
+          <Link to={"./Egitim"}>Bir sonraki hizmet</Link>
+        </div>
+      </div> */}
+    </div>
+  );
 }
 export default Linkedin;

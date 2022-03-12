@@ -1,4 +1,4 @@
-// import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 import "./IletisimDesktop.css";
 import React from "react";
 import Lottie from "react-lottie";
@@ -17,7 +17,7 @@ export default function IletisimComponentDesktop() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-  /*function sendEmail(e) {
+  function sendEmail(e) {
     e.preventDefault();
 
     emailjs
@@ -36,7 +36,8 @@ export default function IletisimComponentDesktop() {
         }
       );
       
-  }*/
+  }
+
   function Mailto({ email, subject, body, ...props }) {
     return (
       <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
@@ -80,7 +81,7 @@ export default function IletisimComponentDesktop() {
           <Lottie options={defaultOptions} height={400} width={350} />
         </div>
 
-        <Box
+        <Box onSubmit={sendEmail}
           id="boxDesktop"
           component="form"
           sx={{
@@ -93,17 +94,15 @@ export default function IletisimComponentDesktop() {
           <div className="input">
             <TextField
               fullWidth
-              label="fullWidth"
               id="fullWidth"
-              // id="standard-required"
-              label="Adınızı ve Soyadınızı giriniz."
+              //id="standard-required"
+              label ="Adınızı ve Soyadınızı giriniz."
               variant="standard"
             />
           </div>
           <div className="input">
             <TextField
               fullWidth
-              label="fullWidth"
               id="fullWidth"
               // id="standard-required"
               label="Email adresinizi giriniz."

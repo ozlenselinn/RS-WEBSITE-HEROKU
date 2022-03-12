@@ -1,0 +1,252 @@
+/* .cvHeader{
+    text-align: center;
+    align-content: center;
+    color: #4abeca;
+    padding-bottom: 5%;
+    font-size:30px;
+  }
+  .float-child-element {
+    float: left;
+    width: 50%;
+    font-size:20px;
+  }
+  .cvContent {
+    margin-left: 5%;
+    margin-right: 10%;
+    background-color:#f1f2f2 ;
+    border-radius: 20%;
+    padding: 10%;
+    color:  #152039;
+  
+  }
+  .paketInfo{
+    font-size:20px;
+  }
+
+  .cvContent:hover{
+    webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background-image: linear-gradient(to right, #f5ce62 #fa7199, #e85a19);
+    box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
+    cursor: pointer;
+    background-size: 300% 100%;
+  }
+  .madde {
+    margin-left: 10%;
+    padding-bottom:2px;
+    font-size:20px;
+   
+  }
+  .tik{
+      color:#4abeca;
+  }
+  
+  .animation1,
+  .animation4 {
+    margin-top:10%;
+    text-align: justify;
+  }
+  .animation2{
+      text-align: justify;
+      margin-top:20%;
+  }
+  .animation3{
+      text-align: justify;
+      margin-top:10%;
+  }
+ 
+  .rows {width:98%;
+    height:100vh;
+    margin:0;
+    flex-wrap:wrap;
+  }
+  .row1{
+    width:98%;
+    min-width:98%;
+    max-width:98%;
+    height:46.25%;
+    min-height:46.25%;
+    margin:0;
+  }
+  .row2{
+    width:98%;
+    min-width:98%;
+    max-width:98%;
+    height:46.25%;
+    min-height:46.25%;
+    margin-top:40%;
+  }
+  .row3{
+    width:98%;
+    min-width:98%;
+    max-width:98%;
+    height:46.25%;
+    min-height:46.25%;
+    margin-top:60%;
+  }
+  
+  .row4{
+    width:98%;
+    min-width:98%;
+    max-width:98%;
+    height:46.25%;
+    min-height:46.25%;
+    padding:1%;
+    margin-top:60%;
+  }
+  
+  .prise{
+    margin-left:70%;
+    margin-bottom:0%;
+    width: 30%;
+      height: auto;
+    background-color:#4abeca;
+    font-size:25px;
+    color:#f1f2f2;
+    text-align: center;
+    padding-top:10%;
+    padding-bottom:10%;
+    border-radius: 100%;
+  }
+  
+  .prise:hover{
+    background-color:#152039;
+  }
+  
+  .sonrakiHizmetLink {
+    background-color: #ff6341;
+    color: #f1f2f2;
+    border-radius: 50px;
+    width:10px;
+    float:right;
+    margin-top:20%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+  }
+  
+  .yonlendirmeIleri{
+    margin-left:70%;
+    margin-bottom:0%;
+    width: 20%;
+    background-color:#e85a19;
+    font-size:10px;
+    color:#f1f2f2 !important;
+    text-align: center;
+    padding:2%;
+    border-radius: 10%;
+    font-size:20px;
+  }
+  
+  .yonlendirmeGeri{
+    margin-left:5%;
+    margin-bottom:0%;
+    width: 20%;
+    background-color:#e85a19;
+    font-size:10px;
+    color:#f1f2f2 !important;
+    text-align: center;
+    padding:2%;
+    border-radius: 10%;
+    font-size:20px;
+  } */
+  
+  /* .float-child-element{
+   
+  } */
+
+  .cvContent1D {
+    margin-right: 10%;
+    float:left;
+    text-align:left;
+    background-color:  #f1f2f2;
+    border-radius: 20%;
+    padding: 10%;
+    color: #152039;
+    font-size:20px;
+  }
+  
+  .cvContent2D {
+    float:right;
+    font-size: 20px;
+    text-align:left;
+    background-color:  #f1f2f2;
+    border-radius: 20%;
+    padding: 10%;
+    color: #152039;
+    font-size:20px;
+    margin-top: 40%;
+  }
+
+  .cvContent3D {
+    float:right;
+    font-size: 20px;
+    text-align:left;
+    background-color:  #f1f2f2;
+    border-radius: 20%;
+    padding: 10%;
+    color: #152039;
+    font-size:20px;
+    margin-top: 120%;
+  }
+
+  .cvContent1D:hover,   .cvContent2D:hover,   .cvContent3D:hover{
+    transition: all 0.4s ease-in-out;
+    box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
+    cursor: pointer;
+    background-size: 300% 100%;
+  }
+  
+  .animation2{
+    padding-top:55%;
+    float:right;
+  }
+  
+  .animation1{
+    float:left;
+  }
+
+  .animation3{
+    float:left;
+    padding-left:10%;
+    padding-top:150%;
+  }
+
+  .madde{
+    margin-left: 5%;
+    padding-bottom:2px;
+  }
+  
+  .momDivCV{
+  padding-top:15%;
+  margin-bottom:90%;
+  padding-left:5%;
+  padding-right:5%;
+  }
+  
+  .row{
+    width: auto;
+  }
+
+  .priseCV{
+    margin-left:70%;
+    margin-bottom:0%;
+    width: 30%;
+      height: auto;
+    background-color:#4abeca;
+    font-size:25px;
+    color:#f1f2f2;
+    text-align: center;
+    padding-top:10%;
+    padding-bottom:10%;
+    border-radius: 100%;
+  }
+  
+.cvHeader {
+  text-align: center;
+  align-content: center;
+  color: #4abeca;
+  padding-bottom: 5%;
+  font-size: 30px;
+}

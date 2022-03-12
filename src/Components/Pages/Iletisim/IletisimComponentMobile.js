@@ -1,4 +1,5 @@
 import "./IletisimMobile.css";
+import emailjs from "emailjs-com";
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./contactAnm";
@@ -6,8 +7,12 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { useRef } from 'react';
 
 export default function IletisimComponentMobile() {
+
+  const form = useRef();
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -16,7 +21,7 @@ export default function IletisimComponentMobile() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
- /* function sendEmail(e) {
+ function sendEmail(e) {
     e.preventDefault();
 
     emailjs
@@ -35,7 +40,7 @@ export default function IletisimComponentMobile() {
         }
       );
   }
-  */
+  
   function Mailto({ email, subject, body, ...props }) {
     return (
       <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
@@ -83,6 +88,8 @@ export default function IletisimComponentMobile() {
         </div>
         <div className="row">
           <Box
+          ref={form}
+          onSubmit={sendEmail}
             id="boxMobile"
             component="form"
             sx={{
@@ -95,7 +102,6 @@ export default function IletisimComponentMobile() {
             <div className="input">
               <TextField
                 fullWidth
-                label="fullWidth"
                 id="fullWidth"
                 // id="standard-required"
                 label="Adınızı ve Soyadınızı giriniz."
@@ -105,7 +111,6 @@ export default function IletisimComponentMobile() {
             <div className="input">
               <TextField
                 fullWidth
-                label="fullWidth"
                 id="fullWidth"
                 // id="standard-required"
                 label="Email adresinizi giriniz."

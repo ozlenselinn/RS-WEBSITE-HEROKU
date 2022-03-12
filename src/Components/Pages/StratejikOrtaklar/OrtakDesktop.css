@@ -1,28 +1,25 @@
-#ortakHeader {
+.momDivOrtakD{
+  padding-top:15%;
+
+}
+
+.ortakHeader {
   color: #4abeca;
   align-items: center;
   text-align: center;
   justify-content: center;
   padding-bottom: 5%;
   font-size:40px;
-  padding-top:4%;
 }
 
-#ogrenciHeader,#sirketHeader {
+.ogrenciHeader,.sirketHeader {
   color: #4abeca;
   align-items: center;
   text-align: center;
   justify-content: center;
   padding-bottom: 5%;
-  padding-top: 10%;
+  padding-top: 5%;
   font-size:35px;
-}
-
-.cerceveDesktop {
-  align-items: center;
-  justify-content: center;
-  font-size:30px;
-  margin-top:4%;
 }
 
 .ortakContentDesktop {
@@ -31,17 +28,22 @@
   font-size:20px;
   border-radius: 10%;
   padding: 40px;
+  margin-left:5%;
+  margin-right:5%;
 }
 
-img.hover-shadow:hover {
+.logos:hover {
   box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
 }
+
 img{
   padding-bottom:5%;
 }
+
 .logoDiv {
   text-align: center;
   align-items: center;
+  padding-left:5%;
 
 }
 .column {
@@ -57,13 +59,7 @@ img{
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column, .columnYeditepe {
-    width: 100%;
-  }
-}
-
-.logoName{
+.logoNameD{
   color:#f1f2f2;
   margin-top:5%;
   margin-bottom:15%;
@@ -71,27 +67,27 @@ img{
   background-color: #152039;
   height: 80px;
   width: 90%;
-  padding: 10px;
+  padding-top: 10%;
   font-size:20px;
   text-align: center;
   align-items: center;
 }
 
-.logoNameYeditepe{
+.logoNameYeditepeD{
   color:#f1f2f2;
-  margin-top:18%;
+  margin-top:22%;
   margin-bottom:15%;
   border-radius:10%;
   background-color: #152039;
   height: 80px;
   width: 90%;
-  padding: 10px;
+  padding-top: 10%;
   font-size:20px;
   text-align: center;
   align-items: center;
 }
 
-.logoNameYeditepeFinans{
+.logoNameYeditepeFinansD{
   color:#f1f2f2;
   margin-top:14%;
   margin-bottom:15%;
@@ -99,7 +95,7 @@ img{
   background-color: #152039;
   height: 80px;
   width: 90%;
-  padding: 10px;
+  padding-top: 10%;
   font-size:20px;
   text-align: center;
   align-items: center;
@@ -112,4 +108,9 @@ img{
   padding: 5px;
   padding-top:6%;
   
+}
+
+.logos{
+  width:350px;
+  height:auto;
 }

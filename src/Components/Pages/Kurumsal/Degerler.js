@@ -1,5 +1,4 @@
 import React from "react";
-import "./DegerlerContents/ValMotDesktop";
 import ValMotDesktop from "./DegerlerContents/ValMotDesktop";
 import ValMotMobile from "./DegerlerContents/ValMotMobile";
 import "./DegerlerContents/ValMotDesktop.css";
