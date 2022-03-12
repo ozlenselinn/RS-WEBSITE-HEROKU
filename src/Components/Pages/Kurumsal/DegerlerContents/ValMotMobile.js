@@ -24,7 +24,7 @@ function ValMotMobile(props) {
 
   return (
  
-    <div className="momDiv">
+    <div className="momDivMobile">
         <div className="motivContentMobile">
             <h1 className="motivasyonHeaderMobile">MOTİVASYONUMUZ</h1>
             <p className="motivFullContent">
@@ -53,7 +53,7 @@ function ValMotMobile(props) {
             </p>
             <p className="resOlarak">hedefliyoruz.</p>
             </p>
-            <div className="degerAnimation">
+            <div className="degerAnimationMobile">
             <Lottie options={defaultOptionsValue} height={450} width={450} />
             </div>
         </div>

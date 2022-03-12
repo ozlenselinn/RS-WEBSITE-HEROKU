@@ -1,31 +1,18 @@
 import React from "react";
-import MulakatPaketEnvanter from "./MulakatPaketEnvanter";
-import MulakatPaketSektorelIK from "./MulakatPaketSektorelIK";
-import MulakatPaketSektorelYD from "./MulakatPaketSektorelYD";
-import MulakatPaketAkademik from "./MulakatPaketAkademik";
-import { Link } from "react-router-dom";
-import "./CV.css";
+import MulakatDesktop from "./mulakatContent/MulakatDesktop";
+import MulakatMobile from "./mulakatContent/MulakatMobile";
+import { useMediaQuery } from "react-responsive";
+import "./mulakatContent/MulakatMobile.css";
+import "./mulakatContent/MulakatDesktop.css";
 
 function Mulakat(props) {
-  return (
-    <div className="rows">
-      <div className="row1">
-        <MulakatPaketEnvanter></MulakatPaketEnvanter>
-      </div>
-      <div className="row2">
-        <MulakatPaketSektorelIK></MulakatPaketSektorelIK>
-      </div>
-      <div className="row2">
-        <MulakatPaketSektorelYD></MulakatPaketSektorelYD>
-      </div>
-      <div className="row2">
-        <MulakatPaketAkademik></MulakatPaketAkademik>
-      </div>
-      <div className="row4">
-      <div className="yonlendirmeGeri"><Link to={"./CV_Danis"}>Bir önceki hizmet</Link></div>
-      <div className="yonlendirmeIleri"><Link to={"./MotivMektup"}>Bir sonraki hizmet</Link></div>
+  const isDesktopOrLaptop = useMediaQuery({ query: "(min-width: 1200px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
-      </div>
+  return (
+    <div>
+      {isDesktopOrLaptop && <MulakatDesktop></MulakatDesktop>}
+      {isTabletOrMobile && <MulakatMobile></MulakatMobile>}
     </div>
   );
 }

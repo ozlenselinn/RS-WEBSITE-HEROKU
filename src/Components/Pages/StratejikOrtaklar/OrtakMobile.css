@@ -1,4 +1,4 @@
-#ortakHeader {
+/*#ortakHeader {
   color: #4abeca;
   align-items: center;
   text-align: center;
@@ -96,4 +96,78 @@ img{
   text-align: center;
   align-items: center;
 
+}*/
+
+.momDivOrtakM{
+  padding-top:20%;
+}
+.ortakHeaderM {
+  color: #4abeca;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size:35px;
+  padding-bottom:5%;
+}
+
+.ogrenciHeaderM,.sirketHeaderM {
+  color: #4abeca;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 10%;
+  font-size:30px;
+}
+
+.ortakContentMobile {
+  background-color: #152039;
+  color: #f1f2f2;
+  font-size:20px;
+  border-radius: 10%;
+  padding: 5%;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.logos:hover {
+  box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
+}
+
+img{
+  padding-bottom:5%;
+}
+
+.logoDivM {
+  text-align: center;
+  align-items: center;
+  padding-left:5%;
+  padding-right:5%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logoNameM{
+  color:#f1f2f2;
+  margin-top:5%;
+  margin-bottom:5%;
+  border-radius:10%;
+  background-color: #152039;
+  height: 80px;
+  padding-top: 5%;
+  font-size:20px;
+  text-align: center;
+  align-items: center;
+}
+
+.logosM{
+  width:300px;
+  height:auto;
+  text-align: center;
+  align-items: center;
 }
