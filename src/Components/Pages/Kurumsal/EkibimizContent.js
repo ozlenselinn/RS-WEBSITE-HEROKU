@@ -14,7 +14,7 @@ function EkibimizContent(props) {
             <img
                 class="postcard__img"
                 src="/kurumsalImages/anilBitmoji.png"
-                alt="Image Title"
+                alt="anil bitmoji"
               />
             </a>
             <div class="postcard__text t-dark">
@@ -46,8 +46,8 @@ function EkibimizContent(props) {
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
-                src="https://picsum.photos/501/500"
-                alt="Image Title"
+                src="/kurumsalImages/enesBitmoji.png"
+                alt="enes bitmoji"
               />
             </a>
             <div class="postcard__text t-dark">
@@ -82,7 +82,7 @@ function EkibimizContent(props) {
               <img
                 class="postcard__img"
                 src="/kurumsalImages/kelesBitmoji.jpeg"
-                alt="Image Title"
+                alt="keles bitmoji"
               />
             </a>
             <div class="postcard__text t-dark">
