@@ -1,0 +1,64 @@
+#degerHeader{
+  text-align: center;
+  align-content: center;
+  color: #4abeca;
+  font-size: 40px;
+  padding-top: 10%;
+}
+
+#motivasyonHeader {
+  text-align: center;
+  align-content: center;
+  color: #4abeca;
+  font-size: 40px;
+}
+
+.degerAnimationD{
+  float:right;
+  margin-right:20%;
+}
+
+#motivContent{
+  background-color: #152039;
+  border-radius: 20%;
+  padding: 10%;
+  color: #f1f2f2;
+  font-size:20px;
+  text-align:left;
+}
+
+#degerContent {
+  background-color: #152039;
+  border-radius: 20%;
+  padding: 10%;
+  color: #f1f2f2;
+  font-size:20px;
+  margin-left:5%;
+  text-align:left;
+}
+
+.madde{
+  margin-left: 5%;
+  padding-bottom:2px;
+}
+.resOlarak{
+  font-size:20px;
+}
+.tik{
+  color:#4abeca;
+}
+
+.motivAnimationD{
+  float:left;
+  padding-left:15%;
+  padding-top:5%;
+}
+
+.momDivDegerler{
+padding-top:5%;
+margin-bottom:10%;
+}
+
+.row{
+  width: auto;
+}

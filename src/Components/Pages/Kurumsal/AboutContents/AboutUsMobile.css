@@ -7,7 +7,6 @@
   padding-left:7%;
 }
 .aboutContentMobile {
-  font-size: medium;
   align-items: center;
 }
 
@@ -24,7 +23,7 @@
 }
 
 .aboutAnimationMobile {
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
   align-items: center;
 }

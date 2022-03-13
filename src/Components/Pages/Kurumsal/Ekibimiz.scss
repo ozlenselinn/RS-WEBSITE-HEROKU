@@ -89,7 +89,7 @@ a, a:hover {
   .postcard__preview-txt {
     overflow: hidden;
     text-overflow: ellipsis;
-    text-align: justify;
+    text-align: left;
     height: 100%;
     font-size:20px;
   }
@@ -290,7 +290,6 @@ a, a:hover {
     display: table;
     margin: 0 auto;
     padding-top: 5%;
-    padding-bottom: 10%;
     text-rendering: optimizeLegibility;
 	  font-weight: initial;
 

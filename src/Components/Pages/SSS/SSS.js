@@ -473,7 +473,7 @@ const styles = {
 
 export default function SSS() {
   return (
-    <div className="momDiv">
+    <div className="momDivSSS">
       <h1 id="sssSayfaHeader">SIKÇA SORULAN SORULAR</h1>
       <div className="bolum">
         <Faq data={dataGenel} styles={styles} config={config} />
@@ -486,6 +486,9 @@ export default function SSS() {
       </div>
       <div className="bolum">
         <Faq data={dataYlsy} styles={styles} config={config} />
+      </div>
+      <div className="bolum">
+        <Faq data={dataMul} styles={styles} config={config} />
       </div>
     </div>
   );

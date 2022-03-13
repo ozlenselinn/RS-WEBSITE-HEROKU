@@ -1,6 +1,6 @@
 import React from "react";
-import OrtaklarComponentDesktop from "./OrtaklarComponentDesktop";
-import OrtaklarComponentMobile from "./OrtaklarComponentMobile";
+import OrtaklarDesktop from "./OrtaklarDesktop";
+import OrtaklarMobile from "./OrtaklarMobile";
 import "./OrtakDesktop.css";
 import "./OrtakMobile.css";
 import { useMediaQuery } from "react-responsive";
@@ -12,8 +12,8 @@ function Topluluklar(props) {
 
   return (
     <div>
-       {isDesktopOrLaptop && <OrtaklarComponentDesktop></OrtaklarComponentDesktop>}
-      {isTabletOrMobile && <OrtaklarComponentMobile></OrtaklarComponentMobile>}
+       {isDesktopOrLaptop && <OrtaklarDesktop></OrtaklarDesktop>}
+      {isTabletOrMobile && <OrtaklarMobile></OrtaklarMobile>}
     </div>
   );
 }

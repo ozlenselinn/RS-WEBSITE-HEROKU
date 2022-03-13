@@ -1,0 +1,76 @@
+.coverEgitimContentM{
+    text-align: left;
+    background-color: #f1f2f2;
+    border-radius: 20%;
+    padding: 10%;
+    color: #152039;
+    font-size: 20px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:10%;
+}
+
+.sopEgitimContentM {
+    font-size: 20px;
+    text-align: left;
+    background-color: #f1f2f2;
+    border-radius: 20%;
+    padding: 10%;
+    color: #152039;
+    font-size: 20px;
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.coverEgitimContentM:hover,   .sopEgitimContentM:hover{
+  transition: all 0.4s ease-in-out;
+  box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
+  cursor: pointer;
+  background-size: 300% 100%;
+}
+
+.egitim1M{
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.egitim2M{
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.madde{
+  margin-left: 5%;
+  padding-bottom:2px;
+}
+
+/* .momDivEgitimM{
+padding-top:15%;
+margin-bottom:5%;
+} */
+
+.row{
+  width: auto;
+}
+
+.priseEgitim{
+  margin-left:70%;
+  margin-bottom:0%;
+  width: 30%;
+    height: auto;
+  background-color:#4abeca;
+  font-size:25px;
+  color:#f1f2f2;
+  text-align: center;
+  padding-top:10%;
+  padding-bottom:10%;
+  border-radius: 100%;
+}
+
+.coverHeader, .sopHeader{
+  text-align: center;
+  align-content: center;
+  color: #4abeca;
+  padding-bottom: 5%;
+  font-size: 30px;
+}

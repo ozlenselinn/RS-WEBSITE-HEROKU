@@ -22,6 +22,7 @@ body {
 } */
 .container {
   width: 100%;
+  /* position: fixed; navbarın aşağılara gelmesi sağlanıyor */
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -61,7 +62,7 @@ li {
 }
 /*navbar ana menü kelimeleri*/
 .menu-item a {
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 600;
   line-height: 40px;
   position: relative;
@@ -226,4 +227,12 @@ li {
   .menu-item .sub__menus__full a {
     text-align: left;
   }
+}
+
+/*radiusunu değiştrebiliriz veya div içine koyup da yapılabilir*/
+#neon {
+  background: rgb(236, 94, 27);
+  border-radius: 160px;
+  color: #000;
+  box-shadow: 0 0 70px rgb(226, 90, 36), 0 0 70px rgb(218, 120, 29);
 }

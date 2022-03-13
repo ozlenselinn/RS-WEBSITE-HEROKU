@@ -8,11 +8,12 @@ function EkibimizContent(props) {
     <div class="mom">
       <section class="light">
         <div>
+    
         <article class="postcard ligh blue">
             <a class="postcard__img_link" href="#">
-              <img
+            <img
                 class="postcard__img"
-                src="https://picsum.photos/1000/1000"
+                src="/kurumsalImages/anilBitmoji.png"
                 alt="Image Title"
               />
             </a>
