@@ -5,12 +5,14 @@ import LinkedinMobile from "./linkedinContent/LinkedinMobile";
 import { useMediaQuery } from "react-responsive";
 import "./linkedinContent/LinkedinMobile.css";
 import "./linkedinContent/LinkedinDesktop.css";
+import './sayfaGecis.css';
 
 function Linkedin(props) {
   const isDesktopOrLaptop = useMediaQuery({ query: "(min-width: 1200px)" });
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
+    <>
     <div>
       {isDesktopOrLaptop && <LinkedinDesktop></LinkedinDesktop>}
       {isTabletOrMobile && <LinkedinMobile></LinkedinMobile>}
@@ -24,6 +26,14 @@ function Linkedin(props) {
         </div>
       </div> */}
     </div>
+    <div className="buttons">
+     
+   
+    <a href = "CV_Danis">
+    <div class="r-arrow-circ"></div>
+    </a> 
+   </div>
+    </>
   );
 }
 export default Linkedin;

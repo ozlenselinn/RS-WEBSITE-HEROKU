@@ -11,11 +11,20 @@ function Degerler(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
-  
+  <>
     <div>
     {isDesktopOrLaptop && <ValMotDesktop></ValMotDesktop>}
     {isTabletOrMobile && <ValMotMobile></ValMotMobile>}
   </div>
+  <div className="buttons">
+     <a href="AboutUs">
+     <div class="l-arrow-circ"></div>
+     </a>
+     <a href = "Ekibimiz">
+     <div class="r-arrow-circ"></div>
+     </a> 
+    </div>
+  </>
   );
 }
 

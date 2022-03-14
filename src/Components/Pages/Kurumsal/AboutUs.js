@@ -5,6 +5,7 @@ import "./AboutContents/AboutUsDesktop.css";
 import "./AboutContents/AboutUsMobile.css";
 import { useMediaQuery } from "react-responsive";
 
+
 function AboutUs(props) {
   const isDesktopOrLaptop = useMediaQuery({query: "(min-width: 1200px)",});
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
@@ -14,10 +15,18 @@ function AboutUs(props) {
 
 
   return (
+    <>
     <div>
       {isDesktopOrLaptop && <AboutContentDesktop></AboutContentDesktop>}
       {isTabletOrMobile && <AboutContentMobile></AboutContentMobile>}
     </div>
+    <div className="buttons">
+   
+     <a href = "Degerler">
+     <div class="r-arrow-circ"></div>
+     </a> 
+    </div>
+    </>
   );
 }
 
