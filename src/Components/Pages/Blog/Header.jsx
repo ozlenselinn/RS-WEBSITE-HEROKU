@@ -5,7 +5,7 @@ export default function Headetr() {
     <div className="header">
       <div className="headerTitles">
        
-        <div className="headerTitleLg">.</div>
+        <div className="headerTitleLg" style = {{color:'white'}}>.</div>
       </div>
     
     </div>
