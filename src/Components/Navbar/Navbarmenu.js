@@ -2,7 +2,22 @@ import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
-import logo from '../../logo.png';
+import logo from '../../logodeneme2.png';
+
+/*
+  <li className="menu-item" ><div id='neon' ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Login`}> Üye Girişi</NavLink></div></li>
+       <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/CV_Endeks`}> CV Endeksi </NavLink> </li>
+                    <li onClick={toggleSubmenu4} className="menu-item sub__menus__arrows" > <Link to="#"> Profilim <FiChevronDown /> </Link>
+                            <ul className={boxClassSubMenu4.join(' ')} > 
+                            <li> <NavLink onClick={toggleClass4} activeClassName='is-active'  to={`/Form`}>CV Oluştur </NavLink> </li>
+                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/CvEndeksAr`}> CV Endeksim </NavLink> </li>
+                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/Sonuclarim`}> Sonuçlarım </NavLink> </li>
+                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/Siparislerim`}> Siparişlerim </NavLink> </li>
+                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/HesapAyarlari`}> Hesap Ayarları </NavLink> </li>
+                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={'/'}> ÇIKIŞ </NavLink> </li>
+                        </ul>
+                    </li>
+*/
 const Navbarmenu = () => {
 
     const [isMenu, setisMenu] = useState(false);
@@ -141,24 +156,14 @@ const toggleClass4 = () => {
                         </ul>
                     </li>
                     
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/CV_Endeks`}> CV Endeksi </NavLink> </li>
+                   
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Blog`}> Blog </NavLink> </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/SSS`}> SSS </NavLink> </li>
                    
                    
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> İletişim </NavLink> </li>
-                    <li className="menu-item" ><div id='neon' ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Login`}> Üye Girişi</NavLink></div></li>
-                     
-                    <li onClick={toggleSubmenu4} className="menu-item sub__menus__arrows" > <Link to="#"> Profilim <FiChevronDown /> </Link>
-                            <ul className={boxClassSubMenu4.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass4} activeClassName='is-active'  to={`/Form`}>CV Oluştur </NavLink> </li>
-                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/CvEndeksAr`}> CV Endeksim </NavLink> </li>
-                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/Sonuclarim`}> Sonuçlarım </NavLink> </li>
-                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/Siparislerim`}> Siparişlerim </NavLink> </li>
-                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={`/HesapAyarlari`}> Hesap Ayarları </NavLink> </li>
-                            <li><NavLink onClick={toggleClass4} activeClassName='is-active' to={'/'}> ÇIKIŞ </NavLink> </li>
-                        </ul>
-                    </li>
+                  
+               
                   
 
 
