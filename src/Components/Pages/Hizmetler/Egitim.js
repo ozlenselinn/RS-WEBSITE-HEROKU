@@ -11,6 +11,7 @@ function Egitim(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
+    <>
     <div>
       {isDesktopOrLaptop && (
         <EgitimDesktop></EgitimDesktop>
@@ -19,7 +20,16 @@ function Egitim(props) {
         <EgitimMobile></EgitimMobile>
       )}
       </div>
-    
+      <div className="buttons">
+     <a href="Motivasyon">
+     <div class="l-arrow-circ"></div>
+     </a>
+     <a href = "Mulakat">
+     <div class="r-arrow-circ"></div>
+     </a> 
+    </div>
+
+      </>
 
   );
 }
