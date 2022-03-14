@@ -17,6 +17,8 @@
   margin-right: 5%;
   align-items: center;
   margin-top: 5%;
+  text-align: justify;
+
 }
 
 .linkedinContentM:hover {
@@ -51,4 +53,5 @@
   padding-top: 10%;
   padding-bottom: 10%;
   border-radius: 100%;
+  font-size:40px;
 }

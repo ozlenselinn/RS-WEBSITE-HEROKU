@@ -63,7 +63,7 @@ function CVPaketlerDesktop(props) {
             <p className="madde">
               <label className="tik">✓</label> Yüzyüze Danışmanlık (1 saat)
             </p>
-            <p className="priseCV">200₺</p>
+            <p className="priseCV">235₺</p>
           </div>
         </div>
       </div>

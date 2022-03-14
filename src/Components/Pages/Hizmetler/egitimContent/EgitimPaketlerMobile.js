@@ -46,8 +46,13 @@ function EgitimPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> Kapanış/özet yazısının yazılması
           </p>
-
-          <p className="priseEgitim">XYZ TL</p>
+          <a className="goContactM" href="./Contact">
+              <input
+                id="butonBizeUlasM"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
         </div>
       </div>
       <div className="row">
@@ -76,7 +81,13 @@ function EgitimPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> Kapanış/özet{" "}
           </p>
-          <p className="priseEgitim">XYZ TL</p>
+          <a className="goContactM" href="./Contact">
+              <input
+                id="butonBizeUlasM"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
         </div>
       </div>
       <div className="row">
