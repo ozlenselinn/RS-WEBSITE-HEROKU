@@ -10,10 +10,20 @@ function Mulakat(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
+    <>
     <div>
       {isDesktopOrLaptop && <MulakatDesktop></MulakatDesktop>}
       {isTabletOrMobile && <MulakatMobile></MulakatMobile>}
     </div>
+    
+      <div className="buttons">
+     <a href="Egitim">
+     <div class="l-arrow-circ"></div>
+     </a>
+   
+    </div>
+
+    </>
   );
 }
 

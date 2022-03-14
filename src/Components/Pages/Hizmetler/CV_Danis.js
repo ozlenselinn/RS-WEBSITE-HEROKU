@@ -11,6 +11,7 @@ function CV_Danis(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
+    <>
     <div>
       {isDesktopOrLaptop && (
         <CvHizmetDesktop></CvHizmetDesktop>
@@ -19,6 +20,17 @@ function CV_Danis(props) {
         <CvHizmetMobile></CvHizmetMobile>
       )}
     </div>
+
+    <div className="buttons">
+     <a href="LinkedIn">
+     <div class="l-arrow-circ"></div>
+     </a>
+     <a href = "Motivasyon">
+     <div class="r-arrow-circ"></div>
+     </a> 
+    </div>
+
+    </>
   );
 }
 

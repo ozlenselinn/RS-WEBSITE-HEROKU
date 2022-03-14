@@ -378,7 +378,7 @@ const dataMul = {
     },
   ],
 };
-
+/*
 const dataYlsy = {
   title: <h5 id="sssHeader">YLYS HAKKINDA SORULAR</h5>,
   rows: [
@@ -452,7 +452,7 @@ const dataYlsy = {
     },
   ],
 };
-
+*/
 const config = {
   animate: true,
   tabFocus: true,
@@ -484,9 +484,7 @@ export default function SSS() {
       <div className="bolum">
         <Faq data={dataSop} styles={styles} config={config} />
       </div>
-      <div className="bolum">
-        <Faq data={dataYlsy} styles={styles} config={config} />
-      </div>
+     
       <div className="bolum">
         <Faq data={dataMul} styles={styles} config={config} />
       </div>

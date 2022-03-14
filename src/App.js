@@ -29,6 +29,15 @@ import CvEndeksAr from './Components/Pages/Profilim/CV_Endeks_AR/CvEndeksAr';
 import SinglePost from "./Components/Pages/Blog/SinglePost";
 import Write from './Components/Pages/Blog/Write';
 
+/*  
+  <Route path="/Write" component={Write}/>
+  <Route path="/Sonuclarim" component={sonuclar}/>
+  <Route path="/Siparislerim" component={Siparislerim}/>  
+  <Route path="/HesapAyarlari" component={HesapAyarlari}/>  
+  <Route path='/CvEndeksAr' component= {CvEndeksAr}/>
+
+*/
+
 
 function App(Component){
   return (
@@ -45,7 +54,7 @@ function App(Component){
           <Route path="/CV_Ent" component={CV_Ent}/>
           <Route path="/Linkedin" component={Linkedin}/> 
           <Route path="/Blog" component={Blog}/>
-          <Route path="/Write" component={Write}/>
+        
           <Route path="/Single" component={SinglePost}/>
           <Route path="/SSS" component={SSS}/>
           <Route path="/Contact" component={Contact}/>
@@ -57,10 +66,7 @@ function App(Component){
           <Route path="/Egitim" component={Egitim}/>
           <Route path="/Topluluklar" component={Topluluklar}/>
           <Route path="/Company" component={Company}/>
-          <Route path="/Sonuclarim" component={sonuclar}/>
-          <Route path="/Siparislerim" component={Siparislerim}/>  
-          <Route path="/HesapAyarlari" component={HesapAyarlari}/>  
-          <Route path='/CvEndeksAr' component= {CvEndeksAr}/>
+         
           
 
       

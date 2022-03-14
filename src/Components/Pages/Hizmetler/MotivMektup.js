@@ -11,7 +11,7 @@ function MotivMektup(props) {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (
-    
+    <>
     
       <div>
       {isDesktopOrLaptop && (
@@ -27,6 +27,16 @@ function MotivMektup(props) {
 
       </div> */}
     </div>
+
+    <div className="buttons">
+     <a href="CV_Danis">
+     <div class="l-arrow-circ"></div>
+     </a>
+     <a href = "Egitim">
+     <div class="r-arrow-circ"></div>
+     </a> 
+    </div>
+    </>
 
   );
 }
