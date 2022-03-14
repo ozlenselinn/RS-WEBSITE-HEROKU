@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
-import logo from '../../logodeneme2.png';
+import logo from '../../logo.png';
 
 /*
   <li className="menu-item" ><div id='neon' ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Login`}> Üye Girişi</NavLink></div></li>
@@ -148,11 +148,12 @@ const toggleClass4 = () => {
 
                     <li onClick={toggleSubmenu3} className="menu-item sub__menus__arrows" > <Link to="#"> Hizmetlerimiz <FiChevronDown /> </Link>
                             <ul className={boxClassSubMenu3.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass3} activeClassName='is-active'  to={`/CV_Danis`}>CV/Özgeçmiş Danışmanlığı </NavLink> </li>
-                            <li><NavLink onClick={toggleClass3} activeClassName='is-active' to={`/Mulakat`}> Mülakat Simülasyonu </NavLink> </li>
+                            <li><NavLink onClick={toggleClass3} activeClassName='is-active' to={`/LinkedIn`}> LinkedIn Optimizasyonu </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass3} activeClassName='is-active'  to={`/CV_Danis`}>Özgeçmiş Danışmanlığı </NavLink> </li>
                             <li><NavLink onClick={toggleClass3} activeClassName='is-active' to={`/Motivasyon`}> Motivasyon Mektubu </NavLink> </li>
-                            <li><NavLink onClick={toggleClass3} activeClassName='is-active' to={`/LinkedIn`}> LinkedIn Hizmeti </NavLink> </li>
                             <li><NavLink onClick={toggleClass3} activeClassName='is-active' to={`/Egitim`}> Eğitimler/Atölyeler </NavLink> </li>
+                            <li><NavLink onClick={toggleClass3} activeClassName='is-active' to={`/Mulakat`}> Mülakat Simülasyonu </NavLink> </li>
+                           
                         </ul>
                     </li>
                     

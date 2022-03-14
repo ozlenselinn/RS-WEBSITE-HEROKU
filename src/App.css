@@ -30,12 +30,13 @@ body {
   background-color: #152039;
 }
 #logoRS {
-  max-width: 80%;
-  height: 80px;
+  max-width: 100%;
+  height: 100px;
 }
+
 .navBar .logo img {
   float: left;
-  max-height: 100px;
+  max-height: 140px;
 }
 /*.is-active {
   color: #ff5800 !important;
