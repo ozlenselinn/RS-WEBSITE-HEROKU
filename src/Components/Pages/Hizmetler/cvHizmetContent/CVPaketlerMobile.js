@@ -57,7 +57,7 @@ function CVPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> Yüzyüze Danışmanlık (1 saat)
           </p>
-          <p className="prise">XYZ TL</p>
+          <p className="prise">200₺</p>
         </div>
       </div>
 
@@ -71,7 +71,7 @@ function CVPaketlerMobile(props) {
             Bu paket kapsamında danışman ekibimiz sizden özgeçmişinize koymanız
             gereken bilgileri öğrenmemiz için bir formu doldurmanızı isteyecek.
             Bu formu doldururken size yol göstermesi için hazırlanmış bir örnek
-            formu da sizinle paylaşacağız. Danışman ekibimiz, formdaki
+            formu da sizinle paylaşacak. Danışman ekibimiz, formdaki
             bilgilerden yola çıkarak sizin için en iyi özgeçmişi hazırlayıp 72
             saat içerisinde size özgeçmişinizin ilk halini iletecek. Bu noktada
             değiştirilmesini, düzeltilmesini istediğiniz noktaları bize
@@ -79,7 +79,7 @@ function CVPaketlerMobile(props) {
             daha kaliteli hizmet sunmak için bekliyor olacağız.
           </p>
           <p className="madde">
-            <label className="tik">✓</label> Özgeçmiş İnceleme
+            <label className="tik">✓</label> CV Bilgi Formu İnceleme İnceleme
           </p>
           <p className="madde">
             <label className="tik">✓</label> Özgeçmiş Düzenleme
@@ -88,15 +88,15 @@ function CVPaketlerMobile(props) {
             <label className="tik">✓</label> Sıfırdan Özgeçmiş Hazırlama
           </p>
           <p className="madde">
+            <label className="tik">✓</label> 3 Farklı Şablonda Özgeçmiş’in
+            Sunulması
+          </p>
+          <p className="madde">
             <del>
               <label className="tik">✓</label> Yüzyüze Danışmanlık
             </del>
           </p>
-          <p className="madde">
-            <label className="tik">✓</label> 3 Farklı Şablonda Özgeçmiş’in
-            Sunulması
-          </p>
-          <p className="prise">XYZ TL</p>
+          <p className="prise">235₺</p>
         </div>
         
       </div>
@@ -110,7 +110,7 @@ function CVPaketlerMobile(props) {
         <h2 className="cvHeader">"EĞİTİMLİ ÖZGEÇMİŞİM HAZIR" PAKETİ</h2>
         <p className="paketInfo">
           “CV Hazırlama Eğitimi” için sizinle birlikte uygun zaman dilimini
-          belirleyeceğiz. Formu doldurup bize göndermenizden itibaren 72 saat
+          belirleyeceğiz. CV Bilgi Formunu doldurup bize göndermenizden itibaren 72 saat
           içerisinde size özgeçmişinizin ilk halini paylaşacağız. Daha sonra,
           eğitimimizde özgeçmiş oluşturmanın püf noktalarını, özgeçmiş
           oluştururken sıkça yapılan hataları, bu hataların nasıl
@@ -121,7 +121,7 @@ function CVPaketlerMobile(props) {
           olacağız.
         </p>
         <p className="madde">
-          <label className="tik">✓</label> Özgeçmiş İnceleme
+          <label className="tik">✓</label> CV Bilgi Formu İnceleme İnceleme
         </p>
         <p className="madde">
           <label className="tik">✓</label> Özgeçmiş Düzenleme
@@ -130,13 +130,13 @@ function CVPaketlerMobile(props) {
           <label className="tik">✓</label> Sıfırdan Özgeçmiş Hazırlama
         </p>
         <p className="madde">
-          <label className="tik">✓</label> Yüzyüze Danışmanlık
-        </p>
-        <p className="madde">
           <label className="tik">✓</label> 3 Farklı Şablonda Özgeçmiş’in
           Sunulması
         </p>
-        <p className="prise">XYZ TL</p>
+        <p className="madde">
+          <label className="tik">✓</label> Yüzyüze Danışmanlık
+        </p>
+        <p className="prise">285₺</p>
       </div>
     </div>
   );

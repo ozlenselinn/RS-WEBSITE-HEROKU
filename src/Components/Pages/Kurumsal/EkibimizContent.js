@@ -13,7 +13,7 @@ function EkibimizContent(props) {
             <a class="postcard__img_link" href="#">
             <img
                 class="postcard__img"
-                src="/kurumsalImages/anilBitmoji.png"
+                src="/kurumsalImages/anilBitmoji.jpeg"
                 alt="anil bitmoji"
               />
             </a>
@@ -46,7 +46,7 @@ function EkibimizContent(props) {
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
-                src="/kurumsalImages/enesBitmoji.png"
+                src="/kurumsalImages/enesBitmoji.jpeg"
                 alt="enes bitmoji"
               />
             </a>
