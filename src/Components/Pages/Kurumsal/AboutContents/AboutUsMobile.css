@@ -12,6 +12,7 @@
 
 .aboutContent {
   font-size: 20px;
+  margin-bottom:4%;
 }
 
 .fullContent {
@@ -23,7 +24,10 @@
 }
 
 .aboutAnimationMobile {
-  margin-top: 10%;
   text-align: center;
   align-items: center;
+}
+
+.momDivAboutMobile{
+padding-top:15%;
 }

@@ -23,12 +23,13 @@
   /* padding: 10%; */
   color: #152039;
   font-size:20px;
+  margin-bottom:4%;
 }
 
 .momDivAboutDesktop{
-  margin-bottom:25%;
+  margin-bottom:30%;
 }
 
-/* .aboutAnimation{
+.aboutAnimation{
   padding-top:10%;
-} */
+}

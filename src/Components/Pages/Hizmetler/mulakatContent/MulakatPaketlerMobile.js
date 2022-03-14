@@ -68,7 +68,7 @@ function MulakatPaketlerMobile(props) {
             <label className="tik">✓</label> Geri bildirim + Akademik mülakat
             dinamikleri eğitimi
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">325₺</p>
         </div>
       </div>
       <div className="row">
@@ -102,7 +102,7 @@ function MulakatPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> 2 Asıl Soru
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">225₺</p>
         </div>
       </div>
       <div className="row">
@@ -132,7 +132,7 @@ function MulakatPaketlerMobile(props) {
             <label className="tik">✓</label> Geri Bildirim + İK Mülakatı
             dinamikleri eğitimi
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">300₺</p>
         </div>
       </div>
       <div className="row">
@@ -164,7 +164,7 @@ function MulakatPaketlerMobile(props) {
             <label className="tik">✓</label> Geri bildirim + Yabancı dil
             mülakatı dinamikleri eğitimi
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">325₺</p>
         </div>
       </div>
       <div className="row">
