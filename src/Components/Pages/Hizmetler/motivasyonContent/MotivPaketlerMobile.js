@@ -46,8 +46,13 @@ function MotivPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> Kapanış/özet yazısının yazılması
           </p>
-
-          <p className="priseMotiv">XYZ TL</p>
+          <a className="goContactD" href="./Contact">
+            <input
+              id="butonBizeUlasD"
+              type="submit"
+              value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+            />
+          </a>
         </div>
       </div>
       <div className="row">
@@ -58,7 +63,8 @@ function MotivPaketlerMobile(props) {
       <div className="row">
         <div className="sopContentM">
           <h2 className="sopHeader">
-            İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA EĞİTİMİ
+            İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA
+            EĞİTİMİ
           </h2>
 
           <p className="madde">
@@ -76,7 +82,13 @@ function MotivPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> Kapanış/özet{" "}
           </p>
-          <p className="priseMotiv">XYZ TL</p>
+          <a className="goContactD" href="./Contact">
+            <input
+              id="butonBizeUlasD"
+              type="submit"
+              value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+            />
+          </a>
         </div>
       </div>
       <div className="row">
@@ -84,7 +96,6 @@ function MotivPaketlerMobile(props) {
           <Lottie options={defaultOptions2} height={450} width={450} />
         </div>
       </div>
-      
     </div>
   );
 }

@@ -159,7 +159,7 @@
   .cvContent1D {
     margin-right: 10%;
     float:left;
-    text-align:left;
+    text-align: justify;
     background-color:  #f1f2f2;
     border-radius: 20%;
     padding: 10%;
@@ -170,7 +170,7 @@
   .cvContent2D {
     float:right;
     font-size: 20px;
-    text-align:left;
+    text-align: justify;
     background-color:  #f1f2f2;
     border-radius: 20%;
     padding: 10%;
@@ -182,7 +182,7 @@
   .cvContent3D {
     float:right;
     font-size: 20px;
-    text-align:left;
+    text-align: justify;
     background-color:  #f1f2f2;
     border-radius: 20%;
     padding: 10%;

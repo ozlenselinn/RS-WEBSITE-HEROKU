@@ -47,7 +47,7 @@ function LinkedinPaketlerDesktop(props) {
                 <label className="tik">✓</label>LinkedIn Genel Bakış (Bağlantı
                 kurma, mesaj gönderme, vb.)
               </p>
-              <p className="priseL">XYZ TL</p>
+              <p className="priseL">175₺</p>
             </p>
           </div>
         </div>

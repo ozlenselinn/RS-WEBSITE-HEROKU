@@ -47,8 +47,13 @@ function MotivPaketlerDesktop(props) {
             <p className="madde">
               <label className="tik">✓</label> Kapanış/özet yazısının yazılması
             </p>
-
-            <p className="priseMotiv">XYZ TL</p>
+            <a className="goContactD" href="./Contact">
+              <input
+                id="butonBizeUlasD"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
           </div>
         </div>
         <div className="float-child-element">
@@ -84,7 +89,13 @@ function MotivPaketlerDesktop(props) {
             <p className="madde">
               <label className="tik">✓</label> Kapanış/özet{" "}
             </p>
-            <p className="priseMotiv">XYZ TL</p>
+            <a className="goContactD" href="./Contact">
+              <input
+                id="butonBizeUlasD"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
           </div>
         </div>
       </div>
