@@ -14,6 +14,7 @@ function CVPaketlerDesktop(props) {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
   const defaultOptions2 = {
     loop: true,
     autoplay: true,
@@ -22,6 +23,7 @@ function CVPaketlerDesktop(props) {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+  
   const defaultOptions3 = {
     loop: true,
     autoplay: true,
