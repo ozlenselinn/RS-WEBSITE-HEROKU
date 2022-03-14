@@ -3,12 +3,13 @@ import "./IletisimDesktop.css";
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./contactAnm";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { useRef } from "react";
+
 
 export default function IletisimComponentDesktop() {
+  const form = useRef();
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -22,20 +23,23 @@ export default function IletisimComponentDesktop() {
 
     emailjs
       .sendForm(
-        "service_2ih46s2",
-        "template_7y8bzgk",
-        e.target,
-        "user_Sw7iCTZasWjkASkWLAs3s"
+        "service_e4vpqqh",
+        "template_495m24y",
+        form.current,
+        "fd9vMMcjPbssU3-Ib"
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert("Mail iletilmiştir, lütfen mail kutunuzu kontrol ediniz.");
+          
         },
         (error) => {
           console.log(error.text);
+          alert("Mail iletilemedi, lütfen tekrar deneyiz.");
         }
       );
-      
+    form.current.reset();
   }
 
   function Mailto({ email, subject, body, ...props }) {
@@ -71,51 +75,26 @@ export default function IletisimComponentDesktop() {
                   size="1.5x"
                 />
               </a>
-              <br></br>
-              <br></br>
-              Adresimiz: vlkdjfgkljdfrgvfdlmvkldfkömvldfkövldkldfkgvlfkdlv??
             </p>
           </div>
         </p>
         <div className="animationIletisimDesktop">
           <Lottie options={defaultOptions} height={400} width={350} />
         </div>
-
-        <Box onSubmit={sendEmail}
-          id="boxDesktop"
-          component="form"
-          sx={{
-            "& > :not(style)": { m: 1, width: "25ch" },
-          }}
-          noValidate
-          autoComplete="off"
-        >
+        <form ref={form} onSubmit={sendEmail} id="boxDesktop">
           <h2 id="iletisimHeader">İLETİŞİM FORMU</h2>
-          <div className="input">
-            <TextField
-              fullWidth
-              id="fullWidth"
-              //id="standard-required"
-              label ="Adınızı ve Soyadınızı giriniz."
-              variant="standard"
-            />
-          </div>
-          <div className="input">
-            <TextField
-              fullWidth
-              id="fullWidth"
-              // id="standard-required"
-              label="Email adresinizi giriniz."
-              variant="standard"
-            />
-            <sub>ornek@ornek.com</sub>
-          </div>
-          <p id="kvkk">
+          <label className="inputsD">Adınızı ve Soyadınızı giriniz.</label>
+          <input type="text" name="name" />
+          <label className="inputsD">Email adresinizi giriniz.</label>
+          <input type="email" name="email" />
+          <sub>ornek@ornek.com</sub>
+          <p className="kvkk">
             Formu gönderdiğiniz takdirde, KVKK Metnini onaylamış olacaksınız.
           </p>
           <input id="buton" type="submit" value="Gönder" />
-        </Box>
+        </form>
       </div>
+     
     </div>
   );
 }

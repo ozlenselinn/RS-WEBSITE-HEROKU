@@ -19,7 +19,6 @@
   text-align: center;
   justify-content: center;
   font-size:30px;
-  padding-top:2%;
 }
 
 .cerceve {
@@ -40,7 +39,7 @@
   border-radius: 10%;
   height: 30rem;
   position: relative;
-  padding:5% 0 5% 0;
+  padding:2% 0% 2% 0%;
 }
 #aciklama {
   background-color: #f1f2f2;
@@ -59,11 +58,21 @@
   border-radius: 10%;
   font-size: 20px;
 }
-
-.info,
-#kvkk {
+.inputsD{
   color: #152039;
-  padding-top: 15%;
+  text-align:center;
+  padding-top:5%;
+}
+.info{
+  color: #152039;
+  padding-top: 5%;
+}
+
+.kvkk {
+padding:5% 10% 5% 10%;
+color: #152039;
+text-align: center;
+
 }
 .input {
   width: 50%;
@@ -111,7 +120,7 @@
 
 .animationIletisimDesktop {
   float: left;
-  padding-top: 15%;
+  padding-top: 5%;
   padding-left:15%;
 }
 
@@ -126,4 +135,21 @@
 
 .instaBut:hover {
   color:#ff6341;
+}
+
+input[type=text], input[type=email] {
+  width: 60%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #4abeca;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  color:#e85a19;
+  background-color:#f1f2f2;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  border: 2px solid #e85a19;
 }

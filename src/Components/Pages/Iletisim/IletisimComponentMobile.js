@@ -3,14 +3,12 @@ import emailjs from "emailjs-com";
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./contactAnm";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useRef } from 'react';
 
 export default function IletisimComponentMobile() {
-
+  
   const form = useRef();
 
   const defaultOptions = {
@@ -21,24 +19,28 @@ export default function IletisimComponentMobile() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
- function sendEmail(e) {
+  function sendEmail(e) {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_2ih46s2",
-        "template_7y8bzgk",
-        e.target,
-        "user_Sw7iCTZasWjkASkWLAs3s"
+        "service_e4vpqqh",
+        "template_495m24y",
+        form.current,
+        "fd9vMMcjPbssU3-Ib"
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert("Mail iletilmiştir, lütfen mail kutunuzu kontrol ediniz.");
+          
         },
         (error) => {
           console.log(error.text);
+          alert("Mail iletilemedi, lütfen tekrar deneyiz.");
         }
       );
+    form.current.reset();
   }
   
   function Mailto({ email, subject, body, ...props }) {
@@ -62,7 +64,7 @@ export default function IletisimComponentMobile() {
           adresine mail atabilirsiniz. Bilgilendirici yazılarımızdan,
           fırsatlarımızdan ve paketlerimizden haberdar olmak için aşağıdaki
           forma mail adresinizi bırakabilirsiniz.
-            <p id="aciklamaInsta">
+            <p className="aciklamaInstaMobile">
               <br></br>
               Ayrıca instagram hesabımızı da ziyaret edebilirsiniz.
               <a
@@ -75,9 +77,6 @@ export default function IletisimComponentMobile() {
                   size="1.5x"
                 />
               </a>
-              <br></br>
-              <br></br>
-              Adresimiz: vlkdjfgkljdfrgvfdlmvkldfkömvldfkövldkldfkgvlfkdlv??
             </p>
           </p>
         </div>
@@ -87,7 +86,7 @@ export default function IletisimComponentMobile() {
           </div>
         </div>
         <div className="row">
-          <Box
+          {/* <Box
           ref={form}
           onSubmit={sendEmail}
             id="boxMobile"
@@ -122,7 +121,19 @@ export default function IletisimComponentMobile() {
               Formu gönderdiğiniz takdirde, KVKK Metnini onaylamış olacaksınız.
             </p>
             <input id="buton" type="submit" value="Gönder" />
-          </Box>
+          </Box> */}
+          <form ref={form} onSubmit={sendEmail} id="boxMobile">
+          <h2 id="iletisimHeader">İLETİŞİM FORMU</h2>
+          <label className="inputsM">Adınızı ve Soyadınızı giriniz.</label>
+          <input type="text" name="name" />
+          <label className="inputsM">Email adresinizi giriniz.</label>
+          <input type="email" name="email" />
+          <sub>ornek@ornek.com</sub>
+          <p className="kvkk">
+            Formu gönderdiğiniz takdirde, KVKK Metnini onaylamış olacaksınız.
+          </p>
+          <input id="buton" type="submit" value="Gönder" />
+        </form>
         </div>
       </div>
     </div>
