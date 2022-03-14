@@ -3,14 +3,14 @@
 
 .containerHome {
   display: auto;
-  background: url("home_back.jpeg");
+  background: url("home_back.svg");
   background-position: right 0% bottom 60%;
   background-size: 100%;
   background-repeat: no-repeat;
   padding-top: 5%;
   padding-bottom: 40%;
   height: 400px;
-  background-color: rgba(233, 227, 227, 0.849);
+  background-color: rgba(169, 219, 207, 255);
 }
 /* #arka {
   margin-left: 5%;
