@@ -6,6 +6,8 @@ import animationData from "./contactAnm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useRef } from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import Kvk from "./Kvk";
 
 export default function IletisimComponentMobile() {
   
@@ -130,7 +132,9 @@ export default function IletisimComponentMobile() {
           <input type="email" name="email" />
           <sub>ornek@ornek.com</sub>
           <p className="kvkk">
-            Formu gönderdiğiniz takdirde, KVKK Metnini onaylamış olacaksınız.
+            Formu gönderdiğiniz takdirde, <ChakraProvider >
+          <Kvk></Kvk>
+          </ChakraProvider> onaylamış olacaksınız.
           </p>
           <input id="buton" type="submit" value="Gönder" />
         </form>
