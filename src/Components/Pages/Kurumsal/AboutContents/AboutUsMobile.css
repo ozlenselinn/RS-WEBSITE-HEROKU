@@ -12,6 +12,8 @@
 
 .aboutContent {
   font-size: 20px;
+  margin-bottom:4%;
+  text-align: justify;
 }
 
 .fullContent {
@@ -19,11 +21,13 @@
   border-radius: 20%;
   padding: 10%;
   color: #152039;
-  margin-left: 5%;
-}
+  margin-left: 5%;}
 
 .aboutAnimationMobile {
-  margin-top: 10%;
   text-align: center;
   align-items: center;
+}
+
+.momDivAboutMobile{
+padding-top:15%;
 }

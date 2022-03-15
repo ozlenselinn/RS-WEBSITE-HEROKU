@@ -30,6 +30,7 @@ a, a:hover {
   width:60%;
   align-items: center;
   background-color: #e1e5ea;
+  
 
 	&.light {
 		background-color: #e1e5ea;
@@ -89,7 +90,7 @@ a, a:hover {
   .postcard__preview-txt {
     overflow: hidden;
     text-overflow: ellipsis;
-    text-align: left;
+    text-align: justify;
     height: 100%;
     font-size:20px;
   }
@@ -124,7 +125,7 @@ a, a:hover {
     }
 
     .postcard__img {
-      max-width: 300px;
+      max-width: 250px;
       max-height: 100%;
       transition: transform 0.3s ease;
     }

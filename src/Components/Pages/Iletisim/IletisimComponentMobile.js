@@ -26,7 +26,7 @@ export default function IletisimComponentMobile() {
 
     emailjs
       .sendForm(
-        "service_e4vpqqh",
+        "service_jdoibm5",
         "template_495m24y",
         form.current,
         "fd9vMMcjPbssU3-Ib"

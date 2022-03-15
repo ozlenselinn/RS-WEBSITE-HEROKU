@@ -31,8 +31,7 @@ function LinkedinPaketlerMobile(props) {
                 Profil Başlığı)
               </p>
               <p className="madde">
-                <label className="tik">✓</label>Anahtar kelime aramalarında (ATS
-                miydi?) sizi ön plana çıkartacak hakkımda yazısının yazılması
+                <label className="tik">✓</label>Anahtar kelime aramalarında sizi ön plana çıkartacak hakkımda yazısının yazılması
               </p>
               <p className="madde">
                 <label className="tik">✓</label>Profilinizin gerekli
@@ -47,7 +46,7 @@ function LinkedinPaketlerMobile(props) {
                 <label className="tik">✓</label>LinkedIn Genel Bakış (Bağlantı
                 kurma, mesaj gönderme, vb.)
               </p>
-              <p className="priseL">XYZ TL</p>
+              <p className="priseL">175₺</p>
             </p>
           </div>
           </div>

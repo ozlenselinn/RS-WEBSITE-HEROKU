@@ -169,7 +169,7 @@
 }
 
 .cvContent1M {
-  text-align: left;
+  text-align: justify;
   background-color: #f1f2f2;
   border-radius: 20%;
   padding: 10%;
@@ -181,7 +181,7 @@
 
 .cvContent2M {
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
   background-color: #f1f2f2;
   border-radius: 20%;
   padding: 10%;
@@ -193,7 +193,7 @@
 
 .cvContent3M {
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
   background-color: #f1f2f2;
   border-radius: 20%;
   padding: 10%;

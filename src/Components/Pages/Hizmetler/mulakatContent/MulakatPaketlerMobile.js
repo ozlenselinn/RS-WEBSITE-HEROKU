@@ -68,12 +68,12 @@ function MulakatPaketlerMobile(props) {
             <label className="tik">✓</label> Geri bildirim + Akademik mülakat
             dinamikleri eğitimi
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">385₺</p>
         </div>
       </div>
       <div className="row">
-        <div className="interw_akademikMobile">
-          <Lottie options={defaultOptions1} height={500} width={500} />
+        <div className="interw_akademikMobile ">
+          <Lottie options={defaultOptions2} height={500} width={500} />
         </div>
       </div>
       <div className="row">
@@ -102,12 +102,12 @@ function MulakatPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> 2 Asıl Soru
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">265₺</p>
         </div>
       </div>
       <div className="row">
         <div className="interw_envanterMobile">
-          <Lottie options={defaultOptions2} height={500} width={500} />
+          <Lottie options={defaultOptions1} height={500} width={500} />
         </div>
       </div>
       <div className="row">
@@ -132,7 +132,7 @@ function MulakatPaketlerMobile(props) {
             <label className="tik">✓</label> Geri Bildirim + İK Mülakatı
             dinamikleri eğitimi
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">355₺</p>
         </div>
       </div>
       <div className="row">
@@ -164,7 +164,7 @@ function MulakatPaketlerMobile(props) {
             <label className="tik">✓</label> Geri bildirim + Yabancı dil
             mülakatı dinamikleri eğitimi
           </p>
-          <p className="priseM">XYZ TL</p>
+          <p className="priseM">385₺</p>
         </div>
       </div>
       <div className="row">
