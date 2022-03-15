@@ -1,11 +1,13 @@
 import emailjs from "emailjs-com";
 import "./IletisimDesktop.css";
+import Kvk from "./Kvk";
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./contactAnm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useRef } from "react";
+import { ChakraProvider } from '@chakra-ui/react';
 
 
 export default function IletisimComponentDesktop() {
@@ -89,8 +91,11 @@ export default function IletisimComponentDesktop() {
           <input type="email" name="email" />
           <sub>ornek@ornek.com</sub>
           <p className="kvkk">
-            Formu gönderdiğiniz takdirde, KVKK Metnini onaylamış olacaksınız.
+            Formu gönderdiğiniz takdirde, <ChakraProvider >
+          <Kvk></Kvk>
+          </ChakraProvider> onaylamış olacaksınız.
           </p>
+          
           <input id="buton" type="submit" value="Gönder" />
         </form>
       </div>
