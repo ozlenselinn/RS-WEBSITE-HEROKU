@@ -16,6 +16,10 @@
   text-align: center;
   color: #fff;
 }
+.links {
+  text-align: center;
+  color: rgb(243, 100, 17);
+}
 
 #social li {
   display: inline-block;
@@ -24,10 +28,6 @@
 
 .fa-instagram {
   color: #ad13b3;
-}
-
-.fa-github {
-  color: #134631;
 }
 
 .fa-linkedin {

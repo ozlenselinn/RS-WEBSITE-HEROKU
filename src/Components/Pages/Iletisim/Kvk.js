@@ -2,7 +2,6 @@ import React from "react";
 import "./IletisimDesktop.css";
 import "./IletisimMobile.css";
 
-
 import {
     Modal,
     ModalOverlay,
@@ -15,8 +14,8 @@ import {
     useDisclosure,    
   } from '@chakra-ui/react'
   
-
-function Kvk(props) {
+  
+function Kvk(props) {  
   
     const { isOpen, onOpen, onClose } = useDisclosure()
     const [scrollBehavior, setScrollBehavior] = React.useState('inside')
