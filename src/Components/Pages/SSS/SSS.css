@@ -3,15 +3,14 @@
 }
 
 #sssSayfaHeader{
-  color: #4abeca;
+  color: #ff6341;
   font-size:40px;
 
 }
 
 #sssHeader {
-  color: #4abeca;
-  font-size:35px;
-
+  color: #ff6341;
+  font-size:30px;
 }
 
 .sorular {
@@ -23,7 +22,6 @@
   color: #152039;
   font-size:20px;
   text-align: justify;
-
 }
 
 .main {
@@ -31,6 +29,8 @@
   width: 100%;
   padding-top: 10px;
   justify-content: center;
+  background-color: rgba(169, 219, 207, 255);
+
 }
 .faq {
   max-width: 400px;

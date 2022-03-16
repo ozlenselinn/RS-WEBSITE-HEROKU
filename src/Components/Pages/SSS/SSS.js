@@ -459,7 +459,7 @@ const config = {
 };
 
 const styles = {
-  bgColor: "white",
+  bgColor: "background-color: rgba(169, 219, 207, 255)",
   rowTitleTextSize: "large",
   rowTitlePaddingLeft: "20px",
   rowContentTextSize: "16px",

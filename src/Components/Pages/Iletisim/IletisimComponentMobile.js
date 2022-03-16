@@ -57,7 +57,7 @@ export default function IletisimComponentMobile() {
     <div className="momDivContectMobile">
       <div className="col">
         <div className="row">
-          <h1 id="iletisim">İLETİŞİM</h1>
+          <h1 id="iletisimHeaderM">İLETİŞİM</h1>
           <p id="aciklama">
           Bizimle iletişime geçmek için
           <Mailto email="info@resumeshiners.com">
@@ -125,13 +125,13 @@ export default function IletisimComponentMobile() {
             <input id="buton" type="submit" value="Gönder" />
           </Box> */}
           <form ref={form} onSubmit={sendEmail} id="boxMobile">
-          <h2 id="iletisimHeader">İLETİŞİM FORMU</h2>
+          <h2 id="iletisimFormHeaderM">İLETİŞİM FORMU</h2>
           <label className="inputsM">Adınızı ve Soyadınızı giriniz.</label>
           <input type="text" name="name" />
           <label className="inputsM">Email adresinizi giriniz.</label>
           <input type="email" name="email" />
           <sub>ornek@ornek.com</sub>
-          <p className="kvkk">
+          <p className="kvkkIletisim">
             Formu gönderdiğiniz takdirde, <ChakraProvider >
           <Kvk></Kvk>
           </ChakraProvider> onaylamış olacaksınız.

@@ -165,9 +165,6 @@
     font-size:20px;
   } */
 
-.float-child-element {
-}
-
 .cvContent1M {
   text-align: justify;
   background-color: #f1f2f2;
@@ -203,6 +200,18 @@
   margin-right: 5%;
 }
 
+.cvContentEAM{
+  font-size: 20px;
+  text-align: justify;
+  background-color: #f1f2f2;
+  border-radius: 20%;
+  padding: 10%;
+  color: #152039;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .madde {
   margin-left: 5%;
   padding-bottom: 2px;
@@ -210,6 +219,7 @@
 
 .momDivM {
   padding-top: 15%;
+  margin-bottom:5%;
 }
 
 .row {
