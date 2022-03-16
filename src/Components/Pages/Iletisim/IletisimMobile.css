@@ -1,27 +1,28 @@
 .momDivContectMobile{
     padding-top:20%;
     padding-bottom:5%;
+    background-color: rgba(169, 219, 207, 255);
   }
   
-  #iletisim {
-    color: #4abeca;
+  #iletisimHeaderM {
+    color: #ff6341;
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size:40px;
+    font-size: 40px;
     padding-top:3%;
   
   }
 
-  #iletisimHeader {
-    color: #4abeca;
+  #iletisimFormHeaderM {
+    color: #ff6341;
     align-items: center;
     text-align: center;
     justify-content: center;
     font-size:30px;
     padding-top:2%;
   }
-  
+
 #boxMobile {
 
     align-items: center;
@@ -105,7 +106,7 @@
   
   }
   .instagramIletisimDiv{
-    padding-top:3%;
+    padding-top:5%;
   }
   
   .instaBut{
@@ -123,3 +124,6 @@
     padding-top:5%;
   }
   
+  .iletisimSocial{
+    font-size:40px;
+  }

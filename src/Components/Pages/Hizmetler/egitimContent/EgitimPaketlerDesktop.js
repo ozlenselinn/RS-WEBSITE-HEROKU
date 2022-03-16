@@ -29,7 +29,7 @@ function EgitimPaketlerDesktop(props) {
       <div className="row">
         <div className="float-child-element">
           <div className="egitimCoverContentD">
-            <h2 className="coverHeader">
+            <h2 className="coverHeaderDE">
               COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ
             </h2>
             <p className="madde">
@@ -73,7 +73,7 @@ function EgitimPaketlerDesktop(props) {
         </div>
         <div className="float-child-element">
           <div className="egitimsopContentD">
-            <h2 className="sopHeader">
+            <h2 className="sopHeaderDE">
               İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA
               EĞİTİMİ
             </h2>

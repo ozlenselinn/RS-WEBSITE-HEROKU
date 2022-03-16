@@ -46,7 +46,7 @@ function MulakatPaketlerMobile(props) {
     <div className="momDivMobile">
       <div className="row">
         <div className="akademikContentMobile">
-          <h2 className="akademikHeader">
+          <h2 className="akademikHeaderM">
             "AKADEMİK MÜLAKATA HAZIRLIK” PAKETİ
           </h2>
           <p className="paketInfo">
@@ -78,7 +78,7 @@ function MulakatPaketlerMobile(props) {
       </div>
       <div className="row">
         <div className="envanterContentMobile">
-          <h2 className="envanterHeader">
+          <h2 className="envanterHeaderM">
             “ENVANTER MÜLAKATINA HAZIRLIK” PAKETİ
           </h2>
           <p className="paketInfo">
@@ -112,7 +112,7 @@ function MulakatPaketlerMobile(props) {
       </div>
       <div className="row">
         <div className="ikContentMobile">
-          <h2 className="ikHeader">“SEKTÖREL İK MÜLAKATINA HAZIRLIK” PAKETİ</h2>
+          <h2 className="ikHeaderM">“SEKTÖREL İK MÜLAKATINA HAZIRLIK” PAKETİ</h2>
           <p className="paketInfo">
             Bu paket, Sektörel İK Mülakatı aşamasında genellikle firmanın işe
             alım sorumluları ile ilk kez muhatap olduğunuz ve birebir iletişim
@@ -142,7 +142,7 @@ function MulakatPaketlerMobile(props) {
       </div>
       <div className="row">
         <div className="sektorYdContentMobile">
-          <h2 className="sektorYdHeader">
+          <h2 className="sektorYdHeaderM">
             “SEKTOREL YABANCI DİL MÜLAKATINA HAZIRLIK” PAKETİ
           </h2>
           <p className="paketInfo">

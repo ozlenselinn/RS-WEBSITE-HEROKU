@@ -1,13 +1,14 @@
-.akademikHeader,
-.ikHeader,
-.sektorYdHeader,
-.envanterHeader {
+.akademikHeaderD,
+.ikHeaderD,
+.sektorYdHeaderD,
+.envanterHeaderD {
   text-align: center;
   align-content: center;
-  color: #4abeca;
+  color: #ff6341;
   padding-bottom: 5%;
   font-size: 30px;
 }
+
 
 .akademikContentD {
   float: right;

@@ -28,7 +28,7 @@ function MotivPaketlerDesktop(props) {
       <div className="row">
         <div className="float-child-element">
           <div className="coverContent">
-            <h2 className="coverHeader">COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ</h2>
+            <h2 className="coverHeaderD">COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ</h2>
             <p className="madde">
               <label className="tik">✓</label> Ben Kimim yazısının yazılması
             </p>
@@ -70,7 +70,7 @@ function MotivPaketlerDesktop(props) {
         </div>
         <div className="float-child-element">
           <div className="sopContent">
-            <h2 className="sopHeader">
+            <h2 className="sopHeaderD">
               İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA EĞİTİMİ
             </h2>
 

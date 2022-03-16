@@ -55,7 +55,7 @@ export default function IletisimComponentDesktop() {
   return (
     <div className="momDivContectDesktop">
       <div className="cerceve">
-        <h1 id="iletisim">İLETİŞİM</h1>
+        <h1 id="iletisimHeaderD">İLETİŞİM</h1>
         <p id="aciklama">
           Bizimle iletişime geçmek için
           <Mailto email="info@resumeshiners.com">
@@ -84,13 +84,13 @@ export default function IletisimComponentDesktop() {
           <Lottie options={defaultOptions} height={400} width={350} />
         </div>
         <form ref={form} onSubmit={sendEmail} id="boxDesktop">
-          <h2 id="iletisimHeader">İLETİŞİM FORMU</h2>
+          <h2 id="iletisimHeaderForm">İLETİŞİM FORMU</h2>
           <label className="inputsD">Adınızı ve Soyadınızı giriniz.</label>
           <input type="text" name="name" />
           <label className="inputsD">Email adresinizi giriniz.</label>
           <input type="email" name="email" />
           <sub>ornek@ornek.com</sub>
-          <p className="kvkk">
+          <p className="kvkkIletisim">
             Formu gönderdiğiniz takdirde, <ChakraProvider >
           <Kvk></Kvk>
           </ChakraProvider> onaylamış olacaksınız.
