@@ -9,8 +9,30 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useRef } from "react";
 import { ChakraProvider } from '@chakra-ui/react';
 
+import { extendTheme, useStyleConfig } from '@chakra-ui/react';
 
-export default function IletisimComponentDesktop() {
+
+
+
+export default function IletisimComponentDesktop(props) {
+  const components = {
+    CustomBadge: {
+      baseStyle: ({ colorMode }) => ({
+        bg: colorMode === 'dark' ? 'green.300' : 'green.500',
+        color: colorMode === 'dark' ? 'gray.800' : 'white',
+        textTransform: 'uppercase',
+        fontWeight: 'semibold',
+        letterSpacing: '0.02em',
+        padding: '4px',
+        borderRadius: '2px',
+        fontSize: '12px',
+      }),
+    },
+  }
+  const theme = extendTheme({ components })
+  const { size, variant, ...rest } = props
+  const styles = useStyleConfig('IletisimComponentDesktop', { size, variant })
+
   const form = useRef();
   const defaultOptions = {
     loop: true,

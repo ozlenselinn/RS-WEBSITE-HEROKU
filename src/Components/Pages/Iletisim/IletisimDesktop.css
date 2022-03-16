@@ -1,8 +1,9 @@
+
+
 .momDivContectDesktop{
   padding-top:15%;
   padding-bottom:3%;
   background-color: rgba(169, 219, 207, 255);
-
 }
 
 #iletisim {
@@ -10,9 +11,8 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-size:40px;
-  padding-top:3%;
-
+  font-size: 40px;
+  padding-top: 3%;
 }
 
 #iletisimHeaderD {
@@ -21,6 +21,7 @@
   text-align: center;
   justify-content: center;
   font-size:40px;
+
 }
 
 #iletisimHeaderForm{
@@ -48,7 +49,7 @@
   border-radius: 10%;
   height: 30rem;
   position: relative;
-  padding:2% 0% 2% 0%;
+  padding: 2% 0% 2% 0%;
 }
 #aciklama {
   background-color: #f1f2f2;
@@ -56,33 +57,32 @@
   padding: 5%;
   border-radius: 10%;
   font-size: 20px;
-  margin-left:5%;
-  margin-right:5%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: justify;
-
 }
 
-#aciklamaInsta{
+#aciklamaInsta {
   background-color: #f1f2f2;
   color: #152039;
   border-radius: 10%;
   font-size: 20px;
 }
-.inputsD{
+.inputsD {
   color: #152039;
-  text-align:center;
-  padding-top:5%;
+  text-align: center;
+  padding-top: 5%;
 }
-.info{
+.info {
   color: #152039;
   padding-top: 5%;
 }
+
 
 .kvkkIletisim {
 padding:5% 10% 5% 10%;
 color: #152039;
 text-align: center;
-
 }
 .input {
   width: 50%;
@@ -131,23 +131,24 @@ text-align: center;
 .animationIletisimDesktop {
   float: left;
   padding-top: 5%;
-  padding-left:15%;
+  padding-left: 15%;
 }
 
-.instagramIletisimDiv{
-  padding-top:3%;
+.instagramIletisimDiv {
+  padding-top: 3%;
 }
 
-.instaBut{
-  padding-left:1%;
-  color:#152039;
+.instaBut {
+  padding-left: 1%;
+  color: #152039;
 }
 
 .instaBut:hover {
-  color:#ff6341;
+  color: #ff6341;
 }
 
-input[type=text], input[type=email] {
+input[type="text"],
+input[type="email"] {
   width: 60%;
   padding: 10px 10px;
   margin: 8px 0;
@@ -156,10 +157,11 @@ input[type=text], input[type=email] {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-  color:#e85a19;
-  background-color:#f1f2f2;
+  color: #e85a19;
+  background-color: #f1f2f2;
 }
 
-input[type=text]:focus, input[type=email]:focus {
+input[type="text"]:focus,
+input[type="email"]:focus {
   border: 2px solid #e85a19;
 }
