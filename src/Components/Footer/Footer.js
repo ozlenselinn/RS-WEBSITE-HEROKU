@@ -1,5 +1,6 @@
 import React from "react";
 import "./FooterStyle.css";
+import KvkAydın from "./KvkAydın"
 
 
  
@@ -11,7 +12,7 @@ function Footer(){
                 
 
                 <div className="copyright">
-                <a className="links" href="#">KVKK Aydınlatma Metni</a><a className="links" href="#"> | İletişim</a> 
+                <a className="links" href="/KvkAydın">KVKK Aydınlatma Metni</a><a className="links" href="#"> | İletişim</a> 
                           
                 <p id="date">2022  ©  resumeshiners.com  </p>
                         Designed by BITSPLS.
