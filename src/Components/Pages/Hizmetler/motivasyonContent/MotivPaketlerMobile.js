@@ -27,7 +27,7 @@ function MotivPaketlerMobile(props) {
     <div className="momDivMotivM">
       <div className="row">
         <div className="coverContentM">
-          <h2 className="coverHeader">COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ</h2>
+          <h2 className="coverHeaderM">COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ</h2>
           <p className="madde">
             <label className="tik">✓</label> Ben Kimim yazısının yazılması
           </p>
@@ -62,7 +62,7 @@ function MotivPaketlerMobile(props) {
       </div>
       <div className="row">
         <div className="sopContentM">
-          <h2 className="sopHeader">
+          <h2 className="sopHeaderM">
             İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA
             EĞİTİMİ
           </h2>

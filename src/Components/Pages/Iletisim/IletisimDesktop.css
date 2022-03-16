@@ -1,13 +1,13 @@
-body {
+
+
+.momDivContectDesktop{
+  padding-top:15%;
+  padding-bottom:3%;
   background-color: rgba(169, 219, 207, 255);
-}
-.momDivContectDesktop {
-  padding-top: 15%;
-  padding-bottom: 3%;
 }
 
 #iletisim {
-  color: #4abeca;
+  color: #e85a19;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -15,14 +15,22 @@ body {
   padding-top: 3%;
 }
 
-#iletisimHeader {
-  color: #4abeca;
+#iletisimHeaderD {
+  color: #ff6341;
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-size: 30px;
+  font-size:40px;
+
 }
 
+#iletisimHeaderForm{
+  color: #ff6341;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size:30px;
+}
 .cerceve {
   align-items: center;
   justify-content: center;
@@ -70,10 +78,11 @@ body {
   padding-top: 5%;
 }
 
-.kvkk {
-  padding: 5% 10% 5% 10%;
-  color: #152039;
-  text-align: center;
+
+.kvkkIletisim {
+padding:5% 10% 5% 10%;
+color: #152039;
+text-align: center;
 }
 .input {
   width: 50%;

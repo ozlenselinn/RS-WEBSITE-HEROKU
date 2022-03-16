@@ -1,13 +1,13 @@
 /* .float-child-element {
 } */
 
-.akademikHeader,
-.ikHeader,
-.sektorYdHeader,
-.envanterHeader {
+.akademikHeaderM,
+.ikHeaderM,
+.sektorYdHeaderM,
+.envanterHeaderM {
   text-align: center;
   align-content: center;
-  color: #4abeca;
+  color: #ff6341;
   padding-bottom: 5%;
   font-size: 30px;
 }

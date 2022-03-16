@@ -53,7 +53,7 @@ function MulakatPaketlerDesktop(props) {
         </div>
         <div className="float-child-element">
           <div className="akademikContentD">
-            <h2 className="akademikHeader">
+            <h2 className="akademikHeaderD">
               "AKADEMİK MÜLAKATA HAZIRLIK” PAKETİ
             </h2>
             <p className="paketInfo">
@@ -82,7 +82,7 @@ function MulakatPaketlerDesktop(props) {
         <div className="row">
           <div className="float-child-element">
             <div className="envanterContentD">
-              <h2 className="envanterHeader">
+              <h2 className="envanterHeaderD">
                 “ENVANTER MÜLAKATINA HAZIRLIK” PAKETİ
               </h2>
               <p className="paketInfo">
@@ -125,7 +125,7 @@ function MulakatPaketlerDesktop(props) {
           </div>
         <div className="float-child-element">
           <div className="ikContentD">
-            <h2 className="ikHeader">
+            <h2 className="ikHeaderD">
               “SEKTÖREL İK MÜLAKATINA HAZIRLIK” PAKETİ
             </h2>
             <p className="paketInfo">
@@ -155,7 +155,7 @@ function MulakatPaketlerDesktop(props) {
       <div className="row">
       <div className="float-child-element">
           <div className="sektorYdContentD">
-            <h2 className="sektorYdHeader">
+            <h2 className="sektorYdHeaderD">
               “SEKTOREL YABANCI DİL MÜLAKATINA HAZIRLIK” PAKETİ
             </h2>
             <p className="paketInfo">
