@@ -46,13 +46,14 @@ function MulakatPaketlerDesktop(props) {
     <div className="momDivMulakat">
       <div className="row">
         <div className="float-child-element">
-          <div className="interw_akademikD">
-            <Lottie options={defaultOptions1} height={500} width={500} />
-          </div>
+        <div className="interw_akademikD">
+              <Lottie options={defaultOptions2} height={500} width={500} />
+            </div>
+
         </div>
         <div className="float-child-element">
           <div className="akademikContentD">
-            <h2 className="akademikHeader">
+            <h2 className="akademikHeaderD">
               "AKADEMİK MÜLAKATA HAZIRLIK” PAKETİ
             </h2>
             <p className="paketInfo">
@@ -74,14 +75,14 @@ function MulakatPaketlerDesktop(props) {
               <label className="tik">✓</label> Geri bildirim + Akademik mülakat
               dinamikleri eğitimi
             </p>
-            <p className="priseM">XYZ TL</p>
+            <p className="priseM">385₺</p>
           </div>
         </div>
         </div>
         <div className="row">
           <div className="float-child-element">
             <div className="envanterContentD">
-              <h2 className="envanterHeader">
+              <h2 className="envanterHeaderD">
                 “ENVANTER MÜLAKATINA HAZIRLIK” PAKETİ
               </h2>
               <p className="paketInfo">
@@ -105,13 +106,14 @@ function MulakatPaketlerDesktop(props) {
               <p className="madde">
                 <label className="tik">✓</label> 2 Asıl Soru
               </p>
-              <p className="priseM">XYZ TL</p>
+              <p className="priseM">265₺</p>
             </div>
           </div>
           <div className="float-child-element">
-            <div className="interw_envanterD">
-              <Lottie options={defaultOptions2} height={500} width={500} />
-            </div>
+          <div className="interw_envanterD">
+            <Lottie options={defaultOptions1} height={500} width={500} />
+          </div>
+            
           </div>
         </div>
 
@@ -123,7 +125,7 @@ function MulakatPaketlerDesktop(props) {
           </div>
         <div className="float-child-element">
           <div className="ikContentD">
-            <h2 className="ikHeader">
+            <h2 className="ikHeaderD">
               “SEKTÖREL İK MÜLAKATINA HAZIRLIK” PAKETİ
             </h2>
             <p className="paketInfo">
@@ -145,7 +147,7 @@ function MulakatPaketlerDesktop(props) {
               <label className="tik">✓</label> Geri Bildirim + İK Mülakatı
               dinamikleri eğitimi
             </p>
-            <p className="priseM">XYZ TL</p>
+            <p className="priseM">355₺</p>
           </div>
         </div>
       </div>
@@ -153,7 +155,7 @@ function MulakatPaketlerDesktop(props) {
       <div className="row">
       <div className="float-child-element">
           <div className="sektorYdContentD">
-            <h2 className="sektorYdHeader">
+            <h2 className="sektorYdHeaderD">
               “SEKTOREL YABANCI DİL MÜLAKATINA HAZIRLIK” PAKETİ
             </h2>
             <p className="paketInfo">
@@ -175,7 +177,7 @@ function MulakatPaketlerDesktop(props) {
               <label className="tik">✓</label> Geri bildirim + Yabancı dil
               mülakatı dinamikleri eğitimi
             </p>
-            <p className="priseM">XYZ TL</p>
+            <p className="priseM">385₺</p>
           </div>
         </div>
         <div className="float-child-element">
@@ -183,7 +185,6 @@ function MulakatPaketlerDesktop(props) {
             <Lottie options={defaultOptions4} height={450} width={450} />
           </div>
         </div>
-        
       </div>
     </div>
   );

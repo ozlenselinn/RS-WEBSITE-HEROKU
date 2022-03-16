@@ -6,6 +6,8 @@ import animationData from "./contactAnm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useRef } from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import Kvk from "./Kvk";
 
 export default function IletisimComponentMobile() {
   
@@ -24,7 +26,7 @@ export default function IletisimComponentMobile() {
 
     emailjs
       .sendForm(
-        "service_e4vpqqh",
+        "service_jdoibm5",
         "template_495m24y",
         form.current,
         "fd9vMMcjPbssU3-Ib"
@@ -55,7 +57,7 @@ export default function IletisimComponentMobile() {
     <div className="momDivContectMobile">
       <div className="col">
         <div className="row">
-          <h1 id="iletisim">İLETİŞİM</h1>
+          <h1 id="iletisimHeaderM">İLETİŞİM</h1>
           <p id="aciklama">
           Bizimle iletişime geçmek için
           <Mailto email="info@resumeshiners.com">
@@ -123,14 +125,16 @@ export default function IletisimComponentMobile() {
             <input id="buton" type="submit" value="Gönder" />
           </Box> */}
           <form ref={form} onSubmit={sendEmail} id="boxMobile">
-          <h2 id="iletisimHeader">İLETİŞİM FORMU</h2>
+          <h2 id="iletisimFormHeaderM">İLETİŞİM FORMU</h2>
           <label className="inputsM">Adınızı ve Soyadınızı giriniz.</label>
           <input type="text" name="name" />
           <label className="inputsM">Email adresinizi giriniz.</label>
           <input type="email" name="email" />
           <sub>ornek@ornek.com</sub>
-          <p className="kvkk">
-            Formu gönderdiğiniz takdirde, KVKK Metnini onaylamış olacaksınız.
+          <p className="kvkkIletisim">
+            Formu gönderdiğiniz takdirde, <ChakraProvider >
+          <Kvk></Kvk>
+          </ChakraProvider> onaylamış olacaksınız.
           </p>
           <input id="buton" type="submit" value="Gönder" />
         </form>

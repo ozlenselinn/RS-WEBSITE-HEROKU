@@ -27,7 +27,7 @@ function EgitimPaketlerMobile(props) {
     <div className="momDivEgitimM">
       <div className="row">
         <div className="coverEgitimContentM">
-          <h2 className="coverHeader">COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ</h2>
+          <h2 className="coverHeaderME">COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ</h2>
           <p className="madde">
             <label className="tik">✓</label> Ben Kimim yazısının yazılması
           </p>
@@ -46,8 +46,13 @@ function EgitimPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> Kapanış/özet yazısının yazılması
           </p>
-
-          <p className="priseEgitim">XYZ TL</p>
+          <a className="goContactM" href="./Contact">
+              <input
+                id="butonBizeUlasM"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
         </div>
       </div>
       <div className="row">
@@ -57,7 +62,7 @@ function EgitimPaketlerMobile(props) {
       </div>
       <div className="row">
         <div className="sopEgitimContentM">
-          <h2 className="sopHeader">
+          <h2 className="sopHeaderME">
             İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA EĞİTİMİ
           </h2>
 
@@ -76,7 +81,13 @@ function EgitimPaketlerMobile(props) {
           <p className="madde">
             <label className="tik">✓</label> Kapanış/özet{" "}
           </p>
-          <p className="priseEgitim">XYZ TL</p>
+          <a className="goContactM" href="./Contact">
+              <input
+                id="butonBizeUlasM"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
         </div>
       </div>
       <div className="row">

@@ -5,30 +5,33 @@ import egitim1 from "./egitimAnimation/egitim1";
 import egitim2 from "./egitimAnimation/egitim2";
 
 function EgitimPaketlerDesktop(props) {
-    const defaultOptions1 = {
-        loop: true,
-        autoplay: true,
-        animationData:  egitim1,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice",
-        },
-      };
 
-      const defaultOptions2 = {
-        loop: true,
-        autoplay: true,
-        animationData:  egitim2,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice",
-        },
-      };
+  const defaultOptions1 = {
+    loop: true,
+    autoplay: true,
+    animationData: egitim1,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const defaultOptions2 = {
+    loop: true,
+    autoplay: true,
+    animationData: egitim2,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   return (
     <div className="momDivEgitimD">
       <div className="row">
         <div className="float-child-element">
           <div className="egitimCoverContentD">
-            <h2 className="coverHeader">COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ</h2>
+            <h2 className="coverHeaderDE">
+              COVER LETTER (ÖN YAZI) GENEL EĞİTİMİ
+            </h2>
             <p className="madde">
               <label className="tik">✓</label> Ben Kimim yazısının yazılması
             </p>
@@ -47,8 +50,13 @@ function EgitimPaketlerDesktop(props) {
             <p className="madde">
               <label className="tik">✓</label> Kapanış/özet yazısının yazılması
             </p>
-
-            <p className="priseEgitim">XYZ TL</p>
+            <a className="goContactD" href="./Contact">
+              <input
+                id="butonBizeUlasD"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
           </div>
         </div>
         <div className="float-child-element">
@@ -65,8 +73,9 @@ function EgitimPaketlerDesktop(props) {
         </div>
         <div className="float-child-element">
           <div className="egitimsopContentD">
-            <h2 className="sopHeader">
-              İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA EĞİTİMİ
+            <h2 className="sopHeaderDE">
+              İLERİ SEVİYE AKADEMİK BAŞVURU (SoP - Statement of Purpose) YAZMA
+              EĞİTİMİ
             </h2>
 
             <p className="madde">
@@ -84,7 +93,13 @@ function EgitimPaketlerDesktop(props) {
             <p className="madde">
               <label className="tik">✓</label> Kapanış/özet{" "}
             </p>
-            <p className="priseEgitim">XYZ TL</p>
+            <a className="goContactD" href="./Contact">
+              <input
+                id="butonBizeUlasD"
+                type="submit"
+                value="Detaylı Bilgi Almak İletişime Geçebilirsiniz."
+              />
+            </a>
           </div>
         </div>
       </div>

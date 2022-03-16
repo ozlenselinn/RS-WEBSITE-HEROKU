@@ -1,7 +1,7 @@
 #hakkimizdaHeader {
   text-align: center;
   align-content: center;
-  color: #4abeca;
+  color: #ff6341;
   font-size: 40px;
   padding-left:5%;
   padding-top:7%;
@@ -14,8 +14,7 @@
 .content {
   margin-right: 10%;
   float:left;
-  text-align:left;
-}
+  text-align: justify;}
 
 .aboutContent{
   background-color:  #f1f2f2;
@@ -23,12 +22,13 @@
   /* padding: 10%; */
   color: #152039;
   font-size:20px;
+  margin-bottom:4%;
 }
 
 .momDivAboutDesktop{
-  margin-bottom:25%;
+  margin-bottom:30%;
 }
 
-/* .aboutAnimation{
+.aboutAnimation{
   padding-top:10%;
-} */
+}

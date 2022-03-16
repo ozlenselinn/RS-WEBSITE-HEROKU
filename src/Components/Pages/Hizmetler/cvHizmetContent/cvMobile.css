@@ -165,11 +165,8 @@
     font-size:20px;
   } */
 
-.float-child-element {
-}
-
 .cvContent1M {
-  text-align: left;
+  text-align: justify;
   background-color: #f1f2f2;
   border-radius: 20%;
   padding: 10%;
@@ -181,7 +178,7 @@
 
 .cvContent2M {
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
   background-color: #f1f2f2;
   border-radius: 20%;
   padding: 10%;
@@ -193,7 +190,19 @@
 
 .cvContent3M {
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
+  background-color: #f1f2f2;
+  border-radius: 20%;
+  padding: 10%;
+  color: #152039;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cvContentEAM{
+  font-size: 20px;
+  text-align: justify;
   background-color: #f1f2f2;
   border-radius: 20%;
   padding: 10%;
@@ -210,6 +219,7 @@
 
 .momDivM {
   padding-top: 15%;
+  margin-bottom:5%;
 }
 
 .row {

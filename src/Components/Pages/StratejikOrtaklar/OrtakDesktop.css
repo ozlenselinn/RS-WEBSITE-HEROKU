@@ -4,7 +4,7 @@
 }
 
 .ortakHeader {
-  color: #4abeca;
+  color: #ff6341;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .ogrenciHeader,.sirketHeader {
-  color: #4abeca;
+  color: #ff6341;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -30,6 +30,7 @@
   padding: 40px;
   margin-left:5%;
   margin-right:5%;
+  text-align: justify;
 }
 
 .logos:hover {

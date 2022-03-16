@@ -13,7 +13,7 @@ function EkibimizContent(props) {
             <a class="postcard__img_link" href="#">
             <img
                 class="postcard__img"
-                src="/kurumsalImages/anilBitmoji.png"
+                src="/kurumsalImages/anilBitmoji.jpeg"
                 alt="anil bitmoji"
               />
             </a>
@@ -46,7 +46,7 @@ function EkibimizContent(props) {
             <a class="postcard__img_link" href="#">
               <img
                 class="postcard__img"
-                src="/kurumsalImages/enesBitmoji.png"
+                src="/kurumsalImages/enesBitmoji.jpeg"
                 alt="enes bitmoji"
               />
             </a>
@@ -60,8 +60,7 @@ function EkibimizContent(props) {
               </div>
               <div class="postcard__bar"></div>
               <div class="postcard__preview-txt">
-              Merhaba, ben Enes. ODTÜ Elektrik Elektronik Mühendisliği 4.sınıf
-              öğrencisiyim. Yeni fikirler üretmeyi, etrafımdaki insanlara
+              Merhaba, ben Enes. ODTÜ Elektrik Elektronik Mühendisliği mezunuyum. Yeni fikirler üretmeyi, etrafımdaki insanlara
               yardımcı olmayı ve çevremdeki insanların kişisel gelişim
               süreçlerinde onlara katkıda bulunmayı seviyorum. ResumeShiners
               çatısı altında sizlere danışmanlık ve eğitimler vermek için
@@ -97,7 +96,7 @@ function EkibimizContent(props) {
               <div class="postcard__preview-txt">
               Merhaba ben Alperen. Yazı yazmayı, kendimi ve çevremi
               geliştirmeyi, tartışmayı ve uzlaşmayı seviyorum. ODTÜ Bilgisayar
-              Mühendisliği 4. sınıf öğrencisiyim. Sizlerle konuşmak ve
+              mezunuyum. Sizlerle konuşmak ve
               danışmanlık hizmeti vermek için sabırsızlıkla bekliyorum.
               </div>
               <div className="linkedinDiv">

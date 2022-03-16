@@ -159,7 +159,7 @@
   .cvContent1D {
     margin-right: 10%;
     float:left;
-    text-align:left;
+    text-align: justify;
     background-color:  #f1f2f2;
     border-radius: 20%;
     padding: 10%;
@@ -170,7 +170,7 @@
   .cvContent2D {
     float:right;
     font-size: 20px;
-    text-align:left;
+    text-align: justify;
     background-color:  #f1f2f2;
     border-radius: 20%;
     padding: 10%;
@@ -182,7 +182,7 @@
   .cvContent3D {
     float:right;
     font-size: 20px;
-    text-align:left;
+    text-align: justify;
     background-color:  #f1f2f2;
     border-radius: 20%;
     padding: 10%;
@@ -191,7 +191,19 @@
     margin-top: 120%;
   }
 
-  .cvContent1D:hover,   .cvContent2D:hover,   .cvContent3D:hover{
+  .cvContentEA {
+    float:right;
+    font-size: 20px;
+    text-align: justify;
+    background-color:  #f1f2f2;
+    border-radius: 20%;
+    padding: 10%;
+    color: #152039;
+    font-size:20px;
+    margin-top: 200%;
+  }
+
+  .cvContent1D:hover,   .cvContent2D:hover,   .cvContent3D:hover, .cvContentEA:hover{
     transition: all 0.4s ease-in-out;
     box-shadow: #4abeca 6px 2px 16px 0px, #152039 -6px -2px 16px 0px;
     cursor: pointer;
@@ -212,7 +224,12 @@
     padding-left:10%;
     padding-top:150%;
   }
-
+  
+  .animation5{
+    float:left;
+    padding-top:190%;
+    padding-left:5%;
+  }
   .madde{
     margin-left: 5%;
     padding-bottom:2px;
@@ -220,7 +237,7 @@
   
   .momDivCV{
   padding-top:15%;
-  margin-bottom:90%;
+  margin-bottom:110%;
   padding-left:5%;
   padding-right:5%;
   }
@@ -246,7 +263,7 @@
 .cvHeader {
   text-align: center;
   align-content: center;
-  color: #4abeca;
+  color: #ff6341;
   padding-bottom: 5%;
   font-size: 30px;
 }
