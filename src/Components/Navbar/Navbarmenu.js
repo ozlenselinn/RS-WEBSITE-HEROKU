@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
-import logo from '../../logo-amblem-koyu (1).png';
+import logo from '../../logo.png';
 
 /*
   <li className="menu-item" ><div id='neon' ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Login`}> Üye Girişi</NavLink></div></li>
