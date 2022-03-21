@@ -28,6 +28,7 @@ import HesapAyarlari from './Components/Pages/Profilim/HesapAyarlari/HesapAyarla
 import CvEndeksAr from './Components/Pages/Profilim/CV_Endeks_AR/CvEndeksAr';
 import SinglePost from "./Components/Pages/Blog/SinglePost";
 import Write from './Components/Pages/Blog/Write';
+import KvkAydin from './Components/Footer/KvkAydin';
 
 /*  
   <Route path="/Write" component={Write}/>
@@ -71,8 +72,8 @@ function App(Component){
 
       
         </Switch>
-         {<Footer />}  
-                
+         {<Footer />}
+                         
       </Router>
     
     </div>
