@@ -1,0 +1,23 @@
+.momDivkvk {
+  padding-top: 15%;
+}
+
+.kvkHeader {
+  color: #ff6341;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  font-size: 40px;
+}
+
+.kvkContentDesktop {
+  background-color: #152039;
+  color: #f1f2f2;
+  font-size: 20px;
+  border-radius: 10%;
+  padding: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
