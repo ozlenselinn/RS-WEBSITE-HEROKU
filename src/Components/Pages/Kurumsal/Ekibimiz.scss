@@ -175,9 +175,8 @@ a, a:hover {
 		
 		.postcard__text:before {
       content: "";
-      position: absolute;
+      position: relative;
       display: block;
-      
       top: -20%;
       height: 130%;
       width: 55px;
