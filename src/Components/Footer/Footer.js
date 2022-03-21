@@ -1,21 +1,21 @@
 import React from "react";
 import "./FooterStyle.css";
-import KvkAydın from "./KvkAydın"
+import { ChakraProvider } from '@chakra-ui/react';
+import KvkAydin from "./KvkAydin";
 
-
+{/* <ChakraProvider >
+                <KvkAydin></KvkAydin>
+                </ChakraProvider> */}
  
   //FOOTER
 function Footer(){
   return (
     <>
-    <footer id="footer">
-                
+    <footer id="footer">               
 
                 <div className="copyright">
-                <a className="links" href="/KvkAydın">KVKK Aydınlatma Metni</a><a className="links" href="#"> | İletişim</a> 
-                          
-                <p id="date">2022  ©  resumeshiners.com  </p>
-                        Designed by BITSPLS.
+                <a className="links" href="#">KVKK Aydınlatma Metni</a><a className="links" href="#"> | İletişim</a>                           
+                <p id="date">2022  ©  resumeshiners.com  </p>                       
                 </div>
                 <div id="social">
                     <ul className="icons">

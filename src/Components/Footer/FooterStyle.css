@@ -5,6 +5,9 @@
   background: #152039;
   padding: 20px 0;
   margin-top: 10px;
+  position: static;
+  bottom: 0;
+  width: 100%;
 }
 
 #social {
