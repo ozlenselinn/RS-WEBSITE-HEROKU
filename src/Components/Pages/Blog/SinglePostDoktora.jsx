@@ -11,6 +11,10 @@ export default function SinglePostStaj1() {
 
         
         </h1>
+        <p> Bu yazı orijinal olarak <a href = "https://alpkeles99.medium.com/doktora-ba%C5%9Fvurular%C4%B1-kapsaml%C4%B1-rehber-fbe5ab8465c"> <h4> Doktora Başvuruları: Kapsamlı Rehber</h4> </a> adresinde yayınlanmıştır.
+        </p>
+        <br />
+        <br />
         <div className="singlePostInfo">
           <span>
             Yazar:

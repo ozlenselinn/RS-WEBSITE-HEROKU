@@ -11,6 +11,10 @@ export default function SinglePostStaj1() {
 
         
         </h1>
+        <p> Bu yazı orijinal olarak <a href = "https://alpkeles99.medium.com/staj-rehberi-1-%C3%B6zge%C3%A7mi%C5%9F-haz%C4%B1rlama-b68a9b642994"> <h4>Staj Rehberi#1 — Özgeçmiş Hazırlama</h4> </a> adresinde yayınlanmıştır.
+        </p>
+        <br />
+        <br />
         <div className="singlePostInfo">
           <span>
             Yazar:

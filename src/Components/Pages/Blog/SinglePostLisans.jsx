@@ -10,6 +10,10 @@ export default function SinglePostLisans() {
         Lisans Araştırmaları: Giriş Rehberi
         
         </h1>
+        <p> Bu yazı orijinal olarak <a href = "https://alpkeles99.medium.com/lisans-ara%C5%9Ft%C4%B1rmalar%C4%B1-giri%C5%9F-rehberi-b43751605de3"> <h4>Lisans Araştırmaları: Giriş Rehberi</h4> </a> adresinde yayınlanmıştır.
+        </p>
+        <br />
+        <br />
         <div className="singlePostInfo">
           <span>
             Yazar:

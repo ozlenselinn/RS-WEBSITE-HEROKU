@@ -8,8 +8,12 @@ export default function SinglePostStaj2() {
       
         <h1 className="singlePostTitle" style= {{margin:'20px'}}>
         Staj Rehberi#2 — Niyet Mektubu
-        
+       
         </h1>
+        <p> Bu yazı orijinal olarak <a href = "https://alpkeles99.medium.com/staj-rehberi-2-niyet-mektubu-461ee76e974b"> <h4>Staj Rehberi#2 — Niyet Mektubu</h4> </a> adresinde yayınlanmıştır.
+        </p>
+        <br />
+        <br />
         <div className="singlePostInfo">
           <span>
             Yazar:
@@ -21,7 +25,10 @@ export default function SinglePostStaj2() {
           </span>
         
         </div>
+      
         <p className="singlePostDesc">
+
+       
         İnternette hızlı bir arama, özgeçmişle ilgili dağınık da olsa pek çok kaynağa ulaşım sağlıyor. 
         Gerekirse yeterli bir arama sonucunda iyi özgeçmiş şablonları bulmak, bunlar üzerinden önerilere göre özgeçmiş hazırlamak mümkün.
           <br />
