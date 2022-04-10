@@ -164,6 +164,7 @@ export default function SinglePostStaj1() {
        <br/>
        <a href="https://github.com/alpaylan/cv/blob/main/academic.pdf">Üniversiteler İçin Hazırlanmış Özgeçmiş(Güncel)</a>
        <br/>
+       <br/>
        <a href="https://github.com/alpaylan/cv/blob/main/corporate.pdf">Şirketler İçin Hazırlanmış Özgeçmiş(Güncel Değil)</a>
        <br/>
        <br/>
