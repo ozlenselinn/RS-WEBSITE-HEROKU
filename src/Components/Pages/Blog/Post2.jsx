@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Post.css";
 
-export default function Post({img}) {
+export default function Post2({img}) {
   return (
     <div className="post">
       <img
@@ -12,8 +12,9 @@ export default function Post({img}) {
       <div className="postInfo">
         
         <span className="postTitle">
-          <Link to="/Single" className="link">
-          Staj Rehberi#2 — Niyet Mektubu
+          <Link to="/Single2" className="link">
+         
+           Lisans Araştırmaları: Giriş Rehberi  
             
           </Link>
         </span>
@@ -21,8 +22,7 @@ export default function Post({img}) {
    
       </div>
       <p className="postDesc">
-      Niyet mektubu, başvurunuz esnasında kendinizi insanlaştırmanızı, 
-      başvurudaki ve özgeçmişinizdeki bilgileri belli bir bağlam içerisine yerleştirmenizi...
+      Bu yazıya küçük bir dipnotla başlamak iyi olacaktır diye düşünüyorum. Elbette ki kendime bir araştırmacı diyecek niteliklere sahip değilim...
       </p>
     </div>
   );

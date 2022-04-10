@@ -27,6 +27,8 @@ import Footer from './Components/Footer/Footer';
 import HesapAyarlari from './Components/Pages/Profilim/HesapAyarlari/HesapAyarlari';
 import CvEndeksAr from './Components/Pages/Profilim/CV_Endeks_AR/CvEndeksAr';
 import SinglePost from "./Components/Pages/Blog/SinglePost";
+import SinglePost2 from "./Components/Pages/Blog/SinglePost2";
+import SinglePostStaj1 from "./Components/Pages/Blog/SinglePostStaj1";
 import Write from './Components/Pages/Blog/Write';
 import KvkAydin from './Components/Footer/KvkAydin';
 
@@ -57,6 +59,8 @@ function App(Component){
           <Route path="/Blog" component={Blog}/>
         
           <Route path="/Single" component={SinglePost}/>
+          <Route path="/Single2" component={SinglePost2}/>
+          <Route path="/PostStaj1" component={SinglePostStaj1}/>
           <Route path="/SSS" component={SSS}/>
           <Route path="/Contact" component={Contact}/>
           <Route path="/Login" component={Login}/>

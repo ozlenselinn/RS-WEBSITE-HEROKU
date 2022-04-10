@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Post.css";
 
-export default function Post({img}) {
+export default function PostStaj1({img}) {
   return (
     <div className="post">
       <img
@@ -12,8 +12,10 @@ export default function Post({img}) {
       <div className="postInfo">
         
         <span className="postTitle">
-          <Link to="/Single" className="link">
-          Staj Rehberi#2 — Niyet Mektubu
+          <Link to="/PostStaj1" className="link">
+          Staj Rehberi#1 — Özgeçmiş Hazırlama
+
+ 
             
           </Link>
         </span>
@@ -21,8 +23,7 @@ export default function Post({img}) {
    
       </div>
       <p className="postDesc">
-      Niyet mektubu, başvurunuz esnasında kendinizi insanlaştırmanızı, 
-      başvurudaki ve özgeçmişinizdeki bilgileri belli bir bağlam içerisine yerleştirmenizi...
+      Hayal edin, hedefiniz olan şirkette bir insan kaynakları çalışanı olarak yer alıyorsunuz. Staj başvuru döneminin sonlarına doğru, her gün önünüzden onlarca, belki de yüzlerce başvurunun geçtiği haftalar...
       </p>
     </div>
   );
