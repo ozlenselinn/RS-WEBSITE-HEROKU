@@ -26,9 +26,11 @@ import Siparislerim from './Components/Pages/Profilim/Siparislerim/Siparislerim'
 import Footer from './Components/Footer/Footer';
 import HesapAyarlari from './Components/Pages/Profilim/HesapAyarlari/HesapAyarlari';
 import CvEndeksAr from './Components/Pages/Profilim/CV_Endeks_AR/CvEndeksAr';
-import SinglePost from "./Components/Pages/Blog/SinglePost";
-import SinglePost2 from "./Components/Pages/Blog/SinglePost2";
+import SinglePostStaj2 from "./Components/Pages/Blog/SinglePostStaj2";
+import SinglePostLisans from "./Components/Pages/Blog/SinglePostLisans";
 import SinglePostStaj1 from "./Components/Pages/Blog/SinglePostStaj1";
+import SinglePostDoktora from "./Components/Pages/Blog/SinglePostDoktora";
+import SinglePostRS from "./Components/Pages/Blog/SinglePostRS";
 import Write from './Components/Pages/Blog/Write';
 import KvkAydin from './Components/Footer/KvkAydin';
 
@@ -58,9 +60,11 @@ function App(Component){
           <Route path="/Linkedin" component={Linkedin}/> 
           <Route path="/Blog" component={Blog}/>
         
-          <Route path="/Single" component={SinglePost}/>
-          <Route path="/Single2" component={SinglePost2}/>
+          <Route path="/PostStaj2" component={SinglePostStaj2}/>
+          <Route path="/PostLisans" component={SinglePostLisans}/>
           <Route path="/PostStaj1" component={SinglePostStaj1}/>
+          <Route path="/PostDoktora" component={SinglePostDoktora}/>
+          <Route path="/PostRS" component={SinglePostRS}/>
           <Route path="/SSS" component={SSS}/>
           <Route path="/Contact" component={Contact}/>
           <Route path="/Login" component={Login}/>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Post.css";
 
-export default function Post2({img}) {
+export default function PostRS({img}) {
   return (
     <div className="post">
       <img
@@ -12,9 +12,9 @@ export default function Post2({img}) {
       <div className="postInfo">
         
         <span className="postTitle">
-          <Link to="/Single2" className="link">
+          <Link to="/PostRS" className="link">
          
-           Lisans Araştırmaları: Giriş Rehberi  
+          ResumeShiners Nedir? 
             
           </Link>
         </span>
@@ -22,7 +22,7 @@ export default function Post2({img}) {
    
       </div>
       <p className="postDesc">
-      Bu yazıya küçük bir dipnotla başlamak iyi olacaktır diye düşünüyorum. Elbette ki kendime bir araştırmacı diyecek niteliklere sahip değilim...
+      ResumeShiners, 3 ODTÜ öğrencisi tarafından Mart 2021'de başlatılan...
       </p>
     </div>
   );

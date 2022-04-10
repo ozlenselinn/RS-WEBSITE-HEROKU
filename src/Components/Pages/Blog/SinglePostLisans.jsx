@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./singlePost.css";
 
-export default function SinglePost() {
+export default function SinglePostLisans() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
@@ -14,9 +14,9 @@ export default function SinglePost() {
           <span>
             Yazar:
             <b className="singlePostAuthor">
-              <Link className="link" to="/Single">
-                Alperen Keleş
-              </Link>
+              
+                Alperen Keleş 26 Mayıs 2021
+              
             </b>
           </span>
         
@@ -150,7 +150,7 @@ export default function SinglePost() {
         <h3>Lisans Araştırması Yapmak Size Ne Kaybettirir</h3>
 
         <br />
-        <br />
+        
 
         Üniversite yüzlerce farklı fırsata sahip, sizi kararsız bırakan, yeri geldiğinde pişmanlığa uğratan bir ortam. Topluluklara katılıp turnuvalara gidebilir, yardım kampanyalarına yardım edebilir, sizle aynı ilgiye sahip insanlarla eğlenebilir, binlerce kişinin katılacağı etkinliklerin organizasyonunda yer alabilirsiniz; erken yaşta işe atılabilir, kazandığınız parayla pek çok kişinin hayal edemeyeceği kadar güzel ve rahat bir üniversite hayatı yaşayabilirsiniz; derslerinize düzenli ve odaklı şekilde ilerleyip, mezuniyetten sonra iyi bir şirkette işe girme şansınızı arttırabilirsiniz; gençlik yıllarım bir daha mı gelecek deyip, kendinizi eğlenmeye, dinlenmeye, 
         kendinizi keşfetmeye ayırabilirsiniz; benim yazımı okuyup, bu da güzel bir şeymiş aslında deyip lisansta araştırma yapmaya atılabilirsiniz.

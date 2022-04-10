@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./singlePost.css";
 
-export default function SinglePost() {
+export default function SinglePostStaj2() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
@@ -14,9 +14,9 @@ export default function SinglePost() {
           <span>
             Yazar:
             <b className="singlePostAuthor">
-              <Link className="link" to="/Single">
-                Alperen Keleş
-              </Link>
+              
+                Alperen Keleş 2 Haziran 2021
+           
             </b>
           </span>
         
@@ -40,8 +40,8 @@ export default function SinglePost() {
           <br/>
           <br/>
 
-          Staj Rehberi#1 — Özgeçmiş Hazırlama
-          Hayal edin, hedefiniz olan şirkette bir insan kaynakları çalışanı olarak yer alıyorsunuz. Staj başvuru döneminin…
+          <a href="https://alpkeles99.medium.com/staj-rehberi-1-%C3%B6zge%C3%A7mi%C5%9F-haz%C4%B1rlama-b68a9b642994"><h4>Staj Rehberi#1</h4> — Özgeçmiş Hazırlama
+         Hayal edin, hedefiniz olan şirkette bir insan kaynakları çalışanı olarak yer alıyorsunuz. Staj başvuru döneminin…alpkeles99.medium.com</a>
 
           <br/>
           <br/>
@@ -148,8 +148,8 @@ export default function SinglePost() {
          
           <br/><br/>
 
-          Not in my own words. | MIT Admissions
-          Between June 1st and today, I have: written 5 versions of my medical school personal statement completed two separate…mitadmissions.org
+          <a href="https://mitadmissions.org/blogs/entry/not-in-my-own-words/"><h4>Not in my own words. | MIT Admissions</h4> Between June 1st and today, 
+          I have: written 5 versions of my medical school personal statement completed two separate…mitadmissions.org</a>
           
           <br/><br/>
 
@@ -157,12 +157,13 @@ export default function SinglePost() {
 
           <br/><br/>
 
-          Here’s an organization I would recommend: (1) passionate hook; (2) segué to your background in the field; (3) specific 
+           <i>Here’s an organization I would recommend: (1) passionate hook; (2) segué to your background in the field; (3) specific 
           classes by title and professors you have had (especially if well-known in the field); (4) related extracurricular activities 
           (especially if they hint at some personal quality you want to convey); (5) any publications or other professional accomplishments 
           in the field (perhaps conference presentations or public readings); (6) explanations about problems in your background (if needed);
            and (7) why you have chosen this grad school (name one or two professors and what you know of their specific areas or some feature 
            of the program which specifically attracts you).
+           </i>
 
            <br/><br/>
 
@@ -207,48 +208,19 @@ export default function SinglePost() {
           
           <br/><br/>
 
-          Yazdığınız mailin, kişiyle sizin aranızdaki ilk iletişim olduğunu, ilk izlenimlerin ikili iletişimde en önemli noktalardan birisi olduğunu unutmayın.
+          <b>Yazdığınız mailin, kişiyle sizin aranızdaki ilk iletişim olduğunu, ilk izlenimlerin ikili iletişimde en önemli noktalardan birisi olduğunu unutmayın. </b>
           
           <br/><br/>
           <h3>Bitiş</h3>
 
           <br/>
 
-          Başlangıcında planladığım gibi bir yazı olmadı, yazarken birden fazla kez karar değiştirdim ne yazacağım ile ilgili, dolayısıyla yazıda anlamsal kopukluklar olma ihtimali var, bunun için sizden özür diliyorum. Özgeçmiş yazısında da bahsettiğim gibi, gerek yurt dışı gerek yurt içi başvurularda niyet mektupları ve özgeçmişlerin düzenlenmesi, yorumlanması ve hazırlanması üzerine amatör bir danışmanlık hizmeti başlattım. 
-          Eğer ilgilenirseniz, veyahut başka herhangi bir sorunuz var ise, benimle alpkeles99@gmail.com üzerinden iletişime geçebilirsiniz.
+          Başlangıcında planladığım gibi bir yazı olmadı, yazarken birden fazla kez karar değiştirdim ne yazacağım ile ilgili, dolayısıyla yazıda anlamsal kopukluklar olma 
+          ihtimali var, bunun için sizden özür diliyorum. Özgeçmiş yazısında da bahsettiğim gibi, <b>gerek yurt dışı gerek yurt içi 
+          başvurularda niyet mektupları ve özgeçmişlerin düzenlenmesi, yorumlanması ve hazırlanması üzerine amatör bir danışmanlık hizmeti başlattım. 
+          Eğer ilgilenirseniz, veyahut başka herhangi bir sorunuz var ise, benimle alpkeles99@gmail.com üzerinden iletişime geçebilirsiniz.</b>
 
-
-
-
-
-
-
-
-
-
-          
-
-
-
-
-
-
-
-
-
-
-         
-
-
-
-
-
-
-
-
-
-
-        </p>
+       </p>
       </div>
     </div>
   );

@@ -15,9 +15,9 @@ export default function SinglePostStaj1() {
           <span>
             Yazar:
             <b className="singlePostAuthor">
-              <Link className="link" to="/PostStaj1">
+              
                 Alperen Keleş  21 Mayıs 2021
-              </Link>
+             
             </b>
           </span>
         
@@ -174,9 +174,13 @@ export default function SinglePostStaj1() {
        <br/>
 
       - Microsoft Word(Hazır şablonlar mevcut, sıfırdan yazmayın)
+      <br/>
       - Canva
+      <br/>
       - Europass
+      <br/>
       - Kickresume(ve benzeri siteler, fiyatları gayet uygun)
+      <br/>
       - Latex
 
       <br/>
@@ -199,44 +203,7 @@ export default function SinglePostStaj1() {
           kendimi finansal olarak desteklemek için danışmanlık yapıyorum uygun ücretlerle, eğer ilgileniyor iseniz veyahut başka türlü sorularınız için de benimle 
           alpkeles99@gmail.com üzerinden iletişime geçebilirsiniz.</b>
 
-
-
-
-
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-       </p>
+      </p>
       </div>
     </div>
   );
